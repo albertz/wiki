@@ -1,9 +1,9 @@
 I followed <http://www.scipy.org/Installing_SciPy/Mac_OS_X> with a few modifications.
 
 First:
-* Of course install Apple Dev Tools / Git.
-* Get and install GFortran. E.g. from [here](http://r.research.att.com/gfortran-4.2.3.dmg).
-* Install umfpack via Homebrew (`brew install umfpack`).
+ * Of course install Apple Dev Tools / Git.
+ * Get and install GFortran. E.g. from [here](http://r.research.att.com/gfortran-4.2.3.dmg).
+ * Install umfpack via Homebrew (`brew install umfpack`).
 
 Get the source:
 
