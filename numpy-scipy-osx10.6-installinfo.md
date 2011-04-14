@@ -4,7 +4,7 @@ Preparation:
 
  * Of course install Apple Dev Tools / Git.
  * Get and install GFortran. E.g. from [here](http://r.research.att.com/gfortran-4.2.3.dmg).
- * Install umfpack via Homebrew (`brew install umfpack`).
+ * Install umfpack via [Homebrew](http://mxcl.github.com/homebrew/) (`brew install umfpack`).
 
 Get the source:
 
