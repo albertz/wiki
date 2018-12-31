@@ -22,15 +22,33 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 
 ### Backup properties
 
-* certain files are more important than others (e.g. home directory files are quite important, programming projects, mails)
+* Certain files are more important than others (e.g. home directory files are quite important, programming projects, mails).
 * I want to keep several copies around. Not all copy must be complete, they could maybe just have the important files.
 * Some overview where I have what backup, and which files are there, and maybe even the version of them, would be useful.
+* Some of the projects etc have their own versioning (e.g. Git repo). But this probably does not matter too much. Although it is not totally clear whether the backup system should have its own versioning support. It probably should not keep the full history of everything. Also it should be possible to permanently delete things from the whole system.
+* Copying will take long, because of huge amounts of data. There has to be some continuous update.
+* Backups on external cloud storage would be nice as well, but should be encrypted there.
 
 
 ## Software
 
 * [Wikipedia software list](https://en.wikipedia.org/wiki/List_of_backup_software)
-* [albertz/backup_system](https://github.com/albertz/backup_system)
+* [ArchLinux software list](https://wiki.archlinux.org/index.php/Synchronization_and_backup_programs)
+* [rsync](https://rsync.samba.org/)
+* [duplicity](https://nongnu.org/duplicity/)
+* [Bacula](https://bacula.org/)
+* [Perkeep](https://perkeep.org/): previously Camlistore
+* [Syncthing](https://syncthing.net/)
+* [bup](https://bup.github.io/)
+* [restic](https://restic.net/)
+* [Box Backup](https://www.boxbackup.org/)
+* [BorgBackup](https://www.borgbackup.org/)
+* [Rclone](https://rclone.org/)
+* [BackupPC](https://backuppc.github.io/backuppc/)
+* [Bareos](https://www.bareos.org/)
+* [Areca Backup](http://www.areca-backup.org/)
+* [Burp](https://burp.grke.org/)
+* [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 
 
 ## Related software
