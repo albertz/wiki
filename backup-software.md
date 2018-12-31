@@ -28,6 +28,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * Some of the projects etc have their own versioning (e.g. Git repo). But this probably does not matter too much. Although it is not totally clear whether the backup system should have its own versioning support. It probably should not keep the full history of everything. Also it should be possible to permanently delete things from the whole system.
 * Copying will take long, because of huge amounts of data. There has to be some continuous update.
 * Backups on external cloud storage would be nice as well, but should be encrypted there.
+* Some projects / pictures are published elsewhere (GitHub, Google Photos or so). It would be good if the system knows that. And maybe provides an easy way to publish further directories.
 
 
 ## Software
