@@ -35,10 +35,13 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 
 * [Wikipedia software list](https://en.wikipedia.org/wiki/List_of_backup_software)
 * [ArchLinux software list](https://wiki.archlinux.org/index.php/Synchronization_and_backup_programs)
+* [Ubuntu software list](https://help.ubuntu.com/community/BackupYourSystem)
 * [rsync](https://rsync.samba.org/)
 * [duplicity](https://nongnu.org/duplicity/)
 * [Bacula](https://bacula.org/)
-* [Perkeep](https://perkeep.org/): previously Camlistore
+* [Perkeep](https://perkeep.org/): previously Camlistore.
+    Also for indexing of pics, etc.
+    Looks close to what I want.
 * [Syncthing](https://syncthing.net/)
 * [bup](https://bup.github.io/)
 * [restic](https://restic.net/)
