@@ -58,6 +58,8 @@ Existing software:
 
 * [Pyflame](https://github.com/uber/pyflame). For Python.
 
+* [Py-Spy](https://github.com/benfred/py-spy). For Python.
+
 
 Some useful StackOverflow questions:
 
