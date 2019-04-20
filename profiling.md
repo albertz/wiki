@@ -56,6 +56,8 @@ Existing software:
 
 * LTTng
 
+* [Pyflame](https://github.com/uber/pyflame). For Python.
+
 
 Some useful StackOverflow questions:
 
