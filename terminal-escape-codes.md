@@ -23,8 +23,28 @@ Existing escape code lists and extensions:
 
 ## Images
 
-* [xterm.js](https://github.com/xtermjs/xterm.js/issues/614)
-* [sixel](https://github.com/saitoha/libsixel)
+* [xterm.js issue](https://github.com/xtermjs/xterm.js/issues/614)
+* [terminal-wg issue](https://gitlab.freedesktop.org/terminal-wg/specifications/issues/12)
+* [IPython issue](https://github.com/ipython/ipython/pull/10610)
+* [neofetch source code](https://github.com/dylanaraps/neofetch/blob/master/neofetch) (see `display_image`)
+
+
+### iTerm2 OSC 1337
+
+Only iTerm2 currently.
+Maybe others (xterm.js etc) will follow.
+
+* [documentation](http://iterm2.com/documentation-images.html)
+
+
+### Sixel
+
+From modern and widely used terminal emulators, only Xterm supports it.
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Sixel)
+* [libsixel](https://github.com/saitoha/libsixel)
+* [Gnome issue](https://bugzilla.gnome.org/show_bug.cgi?id=729204)
+* [Konsole issue](https://bugs.kde.org/show_bug.cgi?id=391781)
 
 
 ## Current directory information
@@ -36,6 +56,11 @@ Existing escape code lists and extensions:
 
 * [StackOverflow question](https://stackoverflow.com/questions/52812618/ansi-escape-sequence-for-collapsing-folding-text-maybe-hierarchically)
 * [xterm.js feature request](https://github.com/xtermjs/xterm.js/issues/1875)
+* [terminal-wg issue](https://gitlab.freedesktop.org/terminal-wg/specifications/issues/3)
+
+## Desktop notification
+
+* [terminal-wg issue](https://gitlab.freedesktop.org/terminal-wg/specifications/issues/13)
 
 
 ## Generic HTML
