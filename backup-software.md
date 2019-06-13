@@ -58,7 +58,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 ## Related software
 
 * [albertz/google-contacts-sync](https://github.com/albertz/google-contacts-sync): syncs Google contacts
-* [albertz/memos](https://github.com/albertz/memos): collects Tweets
+* [albertz/memos](https://github.com/albertz/memos): collects Tweets. similar is [Timeliner](https://github.com/mholt/timeliner)
 * [albertz/personal_assistant](https://github.com/albertz/personal_assistant): personal assistant. backup, or a knowledge base, is kind of an integrated part of this; or knowing where to find what data
 * [albertz/system-tools](https://github.com/albertz/system-tools), [albertz/helpers](https://github.com/albertz/helpers): small tools to sync/download things, or create projects, etc
 * [albertz/iphone-backup](https://github.com/albertz/iphone-backup)
