@@ -53,6 +53,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [Areca Backup](http://www.areca-backup.org/)
 * [Burp](https://burp.grke.org/)
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
+* [Resilio](https://www.resilio.com/individuals-sync/). commercial
 
 
 ## Related software
