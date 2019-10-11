@@ -23,6 +23,11 @@ This document is mostly about how to organize that. Such as via a Wiki software.
 Some of these solutions only cover some parts of what would make a useful personal knowledge base.
 
 * This wiki here. (Mostly useful for public text.)
+* I keep lots of knowledge in my `~/Documents` directory.
+  This directory consists mostly of txt files.
+  It is versioned under Git, and kept in sync accross many computers.
+  Basically this is all the private part of my personal knowledge base.
+  Once I want to make sth public, I could move it to this wiki.
 * Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
   (For any kind of media.)
 * Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
