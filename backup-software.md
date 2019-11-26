@@ -17,7 +17,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * contact details (e.g. Google contacts)
 * Tweets
 * movie rankings (score11.de, imdb)
-* documents / texts
+* documents / texts / mails
 
 
 ### Backup properties
