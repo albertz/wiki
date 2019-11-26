@@ -47,6 +47,9 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [restic](https://restic.net/)
 * [Box Backup](https://www.boxbackup.org/)
 * [BorgBackup](https://www.borgbackup.org/)
+  ([HN](https://news.ycombinator.com/item?id=21642364)).
+  Used by rsync.net.
+  Remotely encrypted backups.
 * [Rclone](https://rclone.org/)
 * [BackupPC](https://backuppc.github.io/backuppc/)
 * [Bareos](https://www.bareos.org/)
