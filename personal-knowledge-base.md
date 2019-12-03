@@ -34,3 +34,5 @@ Some of these solutions only cover some parts of what would make a useful person
 * [Error DB](https://github.com/albertz/errordb) (Only for collected error messages.)
 * [Personal assistent](https://github.com/albertz/personal_assistant)
   (A software to organize the knowledge base, and also to make it more useful by giving you context relevant information.)
+* [nvALT software](https://brettterpstra.com/projects/nvalt/) ([GitHub](https://github.com/ttscoff/nv)) for text notes
+  (article: [Organizing Everything With Plain Text Notes](https://www.macstories.net/links/organizing-everything-with-plain-text-notes/))
