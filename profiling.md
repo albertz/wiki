@@ -4,6 +4,8 @@ Native (C/C++) and Python
 (relevant for me now, maybe extend later)
 (native maybe enough initially, Python support can maybe be added).
 
+Also see [debugging](debugging.md).
+
 Most importantly Linux.
 Probably this is platform dependend.
 MacOSX has DTrace.
