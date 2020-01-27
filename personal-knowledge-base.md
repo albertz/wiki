@@ -31,6 +31,7 @@ Some of these solutions only cover some parts of what would make a useful person
 * Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
   (For any kind of media.)
 * Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
+* [beepb00p: personal search infrastructure for your knowledge and code](https://beepb00p.xyz/pkm-search.html) ([HN](https://news.ycombinator.com/item?id=22160572))
 * [Error DB](https://github.com/albertz/errordb) (Only for collected error messages.)
 * [Personal assistent](https://github.com/albertz/personal_assistant)
   (A software to organize the knowledge base, and also to make it more useful by giving you context relevant information.)
