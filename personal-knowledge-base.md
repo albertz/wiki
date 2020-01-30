@@ -29,7 +29,7 @@ Some of these solutions only cover some parts of what would make a useful person
   Basically this is all the private part of my personal knowledge base.
   Once I want to make sth public, I could move it to this wiki.
 * Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
-  (For any kind of media.)
+  (For any kind of media.) (Also just for keeping them synchronized.)
 * Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
 * [beepb00p: personal search infrastructure for your knowledge and code](https://beepb00p.xyz/pkm-search.html) ([HN](https://news.ycombinator.com/item?id=22160572))
 * [Error DB](https://github.com/albertz/errordb) (Only for collected error messages.)
