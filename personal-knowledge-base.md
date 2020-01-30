@@ -37,3 +37,5 @@ Some of these solutions only cover some parts of what would make a useful person
   (A software to organize the knowledge base, and also to make it more useful by giving you context relevant information.)
 * [nvALT software](https://brettterpstra.com/projects/nvalt/) ([GitHub](https://github.com/ttscoff/nv)) for text notes
   (article: [Organizing Everything With Plain Text Notes](https://www.macstories.net/links/organizing-everything-with-plain-text-notes/))
+* Mobile editors (e.g. [Orgzly](https://github.com/orgzly/orgzly-android))
+  together with [Dropbox](https://www.dropbox.com/)/[Syncthing](https://syncthing.net/)
