@@ -57,6 +57,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [Burp](https://burp.grke.org/)
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
+* [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
 
 
 ## Related software
