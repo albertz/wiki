@@ -28,6 +28,11 @@ Some of these solutions only cover some parts of what would make a useful person
   It is versioned under Git, and kept in sync accross many computers.
   Basically this is all the private part of my personal knowledge base.
   Once I want to make sth public, I could move it to this wiki.
+* My mail archive. I sent mails to myself with small random notes or weblinks.
+  Then I tag them and archive them. Important is a good search function.
+  (I use GMail.)
+* Online notes (like Google Keep).
+* Online documents (like Google Docs).
 * Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
   (For any kind of media.) (Also just for keeping them synchronized.)
 * Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
