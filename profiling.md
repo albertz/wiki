@@ -58,10 +58,11 @@ Existing software:
 
 * LTTng
 
-* [Pyflame](https://github.com/uber/pyflame). For Python.
+* [Pyflame](https://github.com/uber/pyflame). For Python. deprecated.
 
 * [Py-Spy](https://github.com/benfred/py-spy). For Python.
 
+* [austin](https://github.com/P403n1x87/austin). For Python.
 
 Some useful StackOverflow questions:
 
