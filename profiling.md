@@ -9,6 +9,7 @@ Also see [debugging](debugging.md).
 Most importantly Linux.
 Probably this is platform dependend.
 MacOSX has DTrace.
+(Windows has [UIforETW](https://github.com/google/UIforETW/). See the [randomascii blog](https://randomascii.wordpress.com/).)
 
 Common situations:
 
