@@ -18,7 +18,7 @@ and ultimatively will probably make the organization worse.
 
 This document is mostly about how to organize that. Such as via a Wiki software.
 
-## Related
+## Solutions
 
 Some of these solutions only cover some parts of what would make a useful personal knowledge base.
 
@@ -33,10 +33,6 @@ Some of these solutions only cover some parts of what would make a useful person
   (I use GMail.)
 * Online notes (like Google Keep).
 * Online documents (like Google Docs).
-* Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
-  (For any kind of media.) (Also just for keeping them synchronized.)
-* Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
-* [beepb00p: personal search infrastructure for your knowledge and code](https://beepb00p.xyz/pkm-search.html) ([HN](https://news.ycombinator.com/item?id=22160572))
 * [Error DB](https://github.com/albertz/errordb) (Only for collected error messages.)
 * [Personal assistent](https://github.com/albertz/personal_assistant)
   (A software to organize the knowledge base, and also to make it more useful by giving you context relevant information.)
@@ -44,3 +40,13 @@ Some of these solutions only cover some parts of what would make a useful person
   (article: [Organizing Everything With Plain Text Notes](https://www.macstories.net/links/organizing-everything-with-plain-text-notes/))
 * Mobile editors (e.g. [Orgzly](https://github.com/orgzly/orgzly-android))
   together with [Dropbox](https://www.dropbox.com/)/[Syncthing](https://syncthing.net/)
+* Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
+  (For any kind of media.) (Also just for keeping them synchronized.)
+
+## Related discussions and projects
+
+* Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
+* [beepb00p: personal search infrastructure for your knowledge and code](https://beepb00p.xyz/pkm-search.html) ([HN](https://news.ycombinator.com/item?id=22160572))
+* Today I Learned (TIL):
+  [jbranchaud](https://github.com/jbranchaud/til/blob/master/README.md) ([HN](https://news.ycombinator.com/item?id=22908044)),
+  [Simon Willison](https://simonwillison.net/2020/Apr/20/self-rewriting-readme/) ([HN](https://news.ycombinator.com/item?id=22920437))
