@@ -33,6 +33,7 @@ Some of these solutions only cover some parts of what would make a useful person
   (I use GMail.)
 * Online notes (like Google Keep).
 * Online documents (like Google Docs).
+* [Shell history, per directory](https://github.com/albertz/wiki/blob/master/shell.md).
 * [Error DB](https://github.com/albertz/errordb) (Only for collected error messages.)
 * [Personal assistent](https://github.com/albertz/personal_assistant)
   (A software to organize the knowledge base, and also to make it more useful by giving you context relevant information.)
