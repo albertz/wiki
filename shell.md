@@ -22,15 +22,10 @@ For Bash, in `~/.bashrc`:
 
     export PROMPT_COMMAND="myLocalHistory"
 
-    # we don't need everything within the history 
-    alias useHistory='grep -E -v "^ls$|^ll$|^l$|^dir$|^cd |^bg$|^fg$|^qstat |^note |^mutt|^std|^clear$|^qinfo$|^gh|^qw$"  | wc -l'
-
     function myLocalHistory()
     {
       HISTORYLINE=`history | tail -1 | sed 's:^ *[0-9]* *::g'`
-      if [ `echo $HISTORYLINE | useHistory` == 1 ] ; then
-        ((date +%F.%H-%M-%S | tr -d '\n' ; echo " $HISTORYLINE") >>.history.$USER) 2>/dev/null
-      fi
+      ~/Programmierung/helpers/local-history-add.py "$HISTORYLINE" >/dev/null
     }
 
 For ZSH, in `~/.zshrc`:
@@ -42,7 +37,7 @@ For ZSH, in `~/.zshrc`:
 For Fish, in `~/.config/fish/config.fish`:
 
     function fish_preexec --on-event fish_preexec
-        ~/dotfiles/system-tools/helpers/local-history-add.py $argv &
+        ~/dotfiles/system-tools/helpers/local-history-add.py $argv & disown
     end
 
 The script local-history-add.py is [here](https://github.com/albertz/helpers/blob/master/local-history-add.py).
