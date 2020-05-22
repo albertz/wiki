@@ -2,7 +2,7 @@ Experience KDevelop 5.5.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git ch
 - Clicked open/import project, selected TF directory.
 - Parsing takes very long.
 - Does not find include files. Added custom include path.
-- Parsing still takes very long (20 mins?).
+- Parsing still takes very long (>2h. maybe it hangs, not sure).
 
 Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git checkout).
 - Import existing project by directory
