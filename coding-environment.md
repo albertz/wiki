@@ -10,5 +10,8 @@ Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git 
 - Does not find include files.
   Needed to modify include paths (QtCreator .includes file).
   Removed all entries, just added `.`.
+  That still was missing a few, so I also added:
+  `/home/az/.local/lib/python3.7/site-packages/tensorflow_core/include`
+  and `/usr/lib/llvm-10/lib/clang/10.0.0/include`.
 - Parsing again very fast (10 secs), now all seems fine.
-- Some strange errors/crashes with clangbackend, but seems fine though.
+- Some strange errors/crashes with clangbackend, but seems fine though/now.
