@@ -43,6 +43,9 @@ Some of these solutions only cover some parts of what would make a useful person
   together with [Dropbox](https://www.dropbox.com/)/[Syncthing](https://syncthing.net/)
 * Backup software ([this wiki entry](backup-software.md), [other project](https://github.com/albertz/backup_system))
   (For any kind of media.) (Also just for keeping them synchronized.)
+* [Emacs Org Mode](http://doc.norang.ca/org-mode.html) ([HN](https://news.ycombinator.com/item?id=23299993)).
+  This is probably the most well known tool to organize sth like this, including also TODO lists, getting things done (GTD) stuff, etc.
+  It requires that you know Emacs.
 
 ## Related discussions and projects
 
@@ -51,3 +54,5 @@ Some of these solutions only cover some parts of what would make a useful person
 * Today I Learned (TIL):
   [jbranchaud](https://github.com/jbranchaud/til/blob/master/README.md) ([HN](https://news.ycombinator.com/item?id=22908044)),
   [Simon Willison](https://simonwillison.net/2020/Apr/20/self-rewriting-readme/) ([HN](https://news.ycombinator.com/item?id=22920437))
+* TODO lists. Getting things done (GTD). Organize how long some task takes, its deadlines, etc.
+* Calendar (covering deadlines of tasks)
