@@ -11,7 +11,7 @@ For shorter things, I usually do that in my public [playground repo](https://git
 While playing around, you will usually run into problems of various kind.
 You usually would get some sort of error or exception or crash,
 or it does not work the way you expect.
-Now you need to do some *debugging*.
+Now you need to do some *debugging* (also see [here](debugging.md)).
 Some web search for the error often helps.
 If that does not get you further,
 it usually helps to formulate some very specific question about your problem,
@@ -24,6 +24,15 @@ because there are likely other people on the earth who run into the same problem
 and who would do the same search --
 now they would likely end up on your StackOverflow question.
 If you figured it out meanwhile, you can simply post the solution as an answer to your own StackOverflow question.
+
+
+# Write a game
+
+This is an extension to your playground, but would be a complete project.
+It probably makes more sense to organize it as that, i.e. create an own independent directory / Git repo for it.
+[Writing a game is a great learning playground](http://www.openlierox.net/wiki/index.php/Why_game_development_is_a_great_learning_playground).
+I collected a lot of useful resources, and also other code/project examples
+[here](https://github.com/albertz/Coding-Game-Intro).
 
 
 # Read existing code
@@ -109,3 +118,19 @@ Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git 
   and `/usr/lib/llvm-10/lib/clang/10.0.0/include`.
 - Parsing again very fast (10 secs), now all seems fine.
 - Some strange errors/crashes with clangbackend, but seems fine though/now.
+
+
+# Coding environment
+
+In general, you should always use Git
+(and follow the common Git conventions,
+i.e. add only the source text files to it, or other small files, not the build products, etc).
+
+What IDE to use?
+Many people will have their own favorites here. This is a whole topic on its own.
+I'm not going too much into that here.
+I just state that I would recommend PyCharm for Python development,
+and QtCreator for C++.
+VSCode is also nice for smaller scripts or text files.
+
+Also see the TensorFlow example above.
