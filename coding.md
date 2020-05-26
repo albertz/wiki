@@ -122,6 +122,33 @@ Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git 
 - Some strange errors/crashes with clangbackend, but seems fine though/now.
 
 
+# Contribute to existing projects
+
+The simplest way to contribute is to write a bug report (e.g. GitHub issue).
+Try to provide the relevant information needed for fixing, such that it is helpful.
+
+You could also try to improve the documentation, or wiki.
+
+Of course, you could also contribute to the code itself.
+E.g. most common is by fixing a bug.
+It can be a great exercise when you observe some bug in some open source software you use,
+to try to fix this bug yourself.
+That means that you first need to get familar with the code (see reading code above),
+and then understand the problem (i.e. [debug it](debugging.md)),
+and then try to actually fix it.
+
+This could also be a new feature.
+
+When contributing to the code, many projects have some own rules for that
+(it is common that they provide some `CONTRIBUTING` file, or some other document where this is covered).
+But there are some very common rules which almost always apply:
+
+* Keep the code style consistent (to the existing style).
+* Do not break things. (If there are tests, make sure they all run through.)
+* If you add some new feature, and there are tests, add tests for your new feature as well.
+* If unsure about sth, talk to some of the developers (better before you invest too much work).
+
+
 # Coding environment
 
 In general, you should always use Git
