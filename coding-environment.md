@@ -76,7 +76,17 @@ This will also depend on your interests and backgrounds.
 * Firefox. C++. Very big. Older than Chrome (you will notice).
 * Quake 1, 2, 3, and also Doom, basically all id engines. Mostly C.
   Very clean code, very easy to understand. Highly recommended.
-* TensorFlow. C++. Very big. Mostly clean code, consistent style.
+* CPython. C. Medium size. Mostly clean code, easy to understand.
+* TensorFlow. Core in C++. Another layer of Python on-top. Very big. Mostly clean code, consistent style.
+* PyTorch. C++ and Python, similar as TensorFlow but much smaller.
+
+Check out [GitHub explore](https://github.com/explore),
+or [Fabien Sanglard](https://fabiensanglard.net/).
+Follow other interesting developers
+(e.g. [John Carmack](https://en.wikipedia.org/wiki/John_Carmack) (Quake, Doom),
+[Fabrice Bellard](https://en.wikipedia.org/wiki/Fabrice_Bellard) (FFmpeg, QEMU),
+[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) (Linux),
+[Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) (Python), ...).
 
 ### TensorFlow
 
