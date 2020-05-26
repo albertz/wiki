@@ -96,6 +96,8 @@ Follow other interesting developers
 [Fabrice Bellard](https://en.wikipedia.org/wiki/Fabrice_Bellard) (FFmpeg, QEMU),
 [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) (Linux),
 [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) (Python), ...).
+(You can also check out [my GitHub repos](https://github.com/albertz),
+but they cannot really be compared to these big names.)
 
 ### TensorFlow
 
