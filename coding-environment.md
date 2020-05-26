@@ -8,6 +8,23 @@ and type in some random code, and try it out.
 
 For shorter things, I usually do that in my public [playground repo](https://github.com/albertz/playground).
 
+While playing around, you will usually run into problems of various kind.
+You usually would get some sort of error or exception or crash,
+or it does not work the way you expect.
+Now you need to do some *debugging*.
+Some web search for the error often helps.
+If that does not get you further,
+it usually helps to formulate some very specific question about your problem,
+and post it on [StackOverflow](https://stackoverflow.com/).
+I do that all the time ([my questions](https://stackoverflow.com/users/133374/albert?tab=questions&sort=newest)).
+If your problem does not show up in a web search,
+it is even helpful for other people if you post this problem / question on StackOverflow
+(even if you figured it already out)
+because there are likely other people on the earth who run into the same problem,
+and who would do the same search --
+now they would likely end up on your StackOverflow question.
+If you figured it out meanwhile, you can simply post the solution as an answer to your own StackOverflow question.
+
 
 # Read existing code
 
