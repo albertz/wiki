@@ -108,6 +108,7 @@ Experience KDevelop 5.5.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git ch
 - Parsing takes very long.
 - Does not find include files. Added custom include path.
 - Parsing still takes very long (>2h. maybe it hangs, not sure).
+- Conclusion: Not sure. Maybe I just misconfigured something. However, not useful in this state.
 
 Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git checkout).
 - Import existing project by directory
@@ -120,6 +121,7 @@ Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git 
   and `/usr/lib/llvm-10/lib/clang/10.0.0/include`.
 - Parsing again very fast (10 secs), now all seems fine.
 - Some strange errors/crashes with clangbackend, but seems fine though/now.
+- Conclusion: Works very well, very fast, very useful.
 
 
 # Contribute to existing projects
@@ -152,8 +154,9 @@ But there are some very common rules which almost always apply:
 # Coding environment
 
 In general, you should always use Git
-(and follow the common Git conventions,
-i.e. add only the source text files to it, or other small files, not the build products, etc).
+(or some other version control system (VCS), but I would recommend Git),
+and follow the common (Git/VCS) conventions,
+i.e. add only the source text files to it, or other small files, not the build products, etc.
 
 What IDE to use?
 Many people will have their own favorites here. This is a whole topic on its own.
