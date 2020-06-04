@@ -122,7 +122,8 @@ Experience QtCreator 4.11.0 (via Ubuntu 20.04), opening TensorFlow (1.15.2, Git 
 - Parsing again very fast (10 secs), now all seems fine.
 - Some strange errors/crashes with clangbackend, but seems fine though/now.
 - Conclusion: Works very well, very fast, very useful.
-
+- Small addition: Editing QtCreator .config file, add `#define GOOGLE_CUDA 1`.
+  That will parse some more code.
 
 # Contribute to existing projects
 
