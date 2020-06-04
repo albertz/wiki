@@ -56,3 +56,5 @@ Some of these solutions only cover some parts of what would make a useful person
   [Simon Willison](https://simonwillison.net/2020/Apr/20/self-rewriting-readme/) ([HN](https://news.ycombinator.com/item?id=22920437))
 * TODO lists. Getting things done (GTD). Organize how long some task takes, its deadlines, etc.
 * Calendar (covering deadlines of tasks)
+* [VimWiki - Personal Wiki for Vim](https://github.com/vimwiki/vimwiki) ([HN](https://news.ycombinator.com/item?id=23402014)).
+  Number of linked text files that have their own syntax highlighting.
