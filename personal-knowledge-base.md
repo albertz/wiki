@@ -49,12 +49,18 @@ Some of these solutions only cover some parts of what would make a useful person
 
 ## Related discussions and projects
 
+* TODO lists. Getting things done (GTD). Organize how long some task takes, its deadlines, etc.
+* Calendar (covering deadlines of tasks)
 * Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
 * [beepb00p: personal search infrastructure for your knowledge and code](https://beepb00p.xyz/pkm-search.html) ([HN](https://news.ycombinator.com/item?id=22160572))
+* [beepb00p: Exobrain](https://beepb00p.xyz/exobrain/):
+  Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your notes, ideas and thoughts.
+* [RWX.GG Progressive Knowledge App](https://gitlab.com/rwx.gg/README)
 * Today I Learned (TIL):
   [jbranchaud](https://github.com/jbranchaud/til/blob/master/README.md) ([HN](https://news.ycombinator.com/item?id=22908044)),
   [Simon Willison](https://simonwillison.net/2020/Apr/20/self-rewriting-readme/) ([HN](https://news.ycombinator.com/item?id=22920437))
-* TODO lists. Getting things done (GTD). Organize how long some task takes, its deadlines, etc.
-* Calendar (covering deadlines of tasks)
 * [VimWiki - Personal Wiki for Vim](https://github.com/vimwiki/vimwiki) ([HN](https://news.ycombinator.com/item?id=23402014)).
   Number of linked text files that have their own syntax highlighting.
+* [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+  Collective community effort for a knowledge base (not personal).
+
