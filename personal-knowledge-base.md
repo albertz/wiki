@@ -55,10 +55,11 @@ Some of these solutions only cover some parts of what would make a useful person
 * [beepb00p: personal search infrastructure for your knowledge and code](https://beepb00p.xyz/pkm-search.html) ([HN](https://news.ycombinator.com/item?id=22160572))
 * [beepb00p: Exobrain](https://beepb00p.xyz/exobrain/):
   Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your notes, ideas and thoughts.
-* [RWX.GG Progressive Knowledge App](https://gitlab.com/rwx.gg/README)
+* [Kasper Zutterman: A curated list of awesome Public Zettelkastens 🗄️ / Second Brains 🧠 / Digital Gardens 🌱](https://github.com/KasperZutterman/Second-Brain)
 * Today I Learned (TIL):
   [jbranchaud](https://github.com/jbranchaud/til/blob/master/README.md) ([HN](https://news.ycombinator.com/item?id=22908044)),
   [Simon Willison](https://simonwillison.net/2020/Apr/20/self-rewriting-readme/) ([HN](https://news.ycombinator.com/item?id=22920437))
+* [RWX.GG Progressive Knowledge App](https://gitlab.com/rwx.gg/README)
 * [VimWiki - Personal Wiki for Vim](https://github.com/vimwiki/vimwiki) ([HN](https://news.ycombinator.com/item?id=23402014)).
   Number of linked text files that have their own syntax highlighting.
 * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
