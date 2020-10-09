@@ -28,6 +28,7 @@
 * Event system to signal object/attribute updates
 * API for dynamic/big content (list, dict)
   * Show partial content, make scrollable or so
+* Throw some AI into the mix?
 
 
 # Related projects
