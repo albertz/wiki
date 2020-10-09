@@ -9,6 +9,11 @@
 
 * Not all attributes, objects, classes, methods should maybe be shown.
 * How to show them? Many different ways, e.g. just the order/organization on screen.
+* How to delegate updates on the object (via GUI independent logic) back to the GUI
+* Extra care in multi-threaded environment
+* Some objects are dynamic or too big
+  (list, dict, or maybe just iterable, infinite list),
+  cannot load & show all, need to load it dynamically
 
 ## Some solutions
 
@@ -17,6 +22,9 @@
   * Attribute: Just readable, or also writeable
   * How to show it
   * Where to show it
+* Event system to signal object/attribute updates
+* API for dynamic/big content (list, dict)
+  * Show partial content, make scrollable or so
 
 
 # Related projects
