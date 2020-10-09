@@ -13,9 +13,10 @@
 ## Some solutions
 
 * Add extra information:
-   * What should be visible to the user
-   * How to show it
-   * Where to show it
+  * What should be visible to the user
+  * Attribute: Just readable, or also writeable
+  * How to show it
+  * Where to show it
 
 
 # Related projects
