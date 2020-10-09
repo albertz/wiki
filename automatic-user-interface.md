@@ -24,6 +24,5 @@
   ([Traits](https://github.com/albertz/music-player/blob/master/src/Traits.py),
    [UserAttrib](https://github.com/albertz/music-player/blob/master/src/UserAttrib.py),
    [GUI](https://github.com/albertz/music-player/blob/master/src/gui.py))
-* Traitlets (used in Jupyter)
-* Enthought Traits (for GUIs)
-* Django admin interface
+* [IPython Traitlets](https://github.com/ipython/traitlets) (used in IPython/Jupyter)
+* [Enthought Traits](https://github.com/enthought/traits) and [TraitsUI](https://github.com/enthought/traitsui) (for GUIs)
