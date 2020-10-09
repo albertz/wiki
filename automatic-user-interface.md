@@ -7,7 +7,10 @@
 
 ## Some problems
 
-* Not all attributes, objects, classes, methods should maybe be shown.
+* Not all attributes, objects, classes, methods should be shown.
+  Some or just relevant for the internal code.
+  Distinction public / private in many languages is not enough
+  -- not all public attribs/methods should be shown.
 * How to show them? Many different ways, e.g. just the order/organization on screen.
 * How to delegate updates on the object (via GUI independent logic) back to the GUI
 * Extra care in multi-threaded environment
