@@ -16,3 +16,14 @@
    * What should be visible to the user
    * How to show it
    * Where to show it
+
+
+# Related projects
+
+* MusicPlayer GUI
+  ([Traits](https://github.com/albertz/music-player/blob/master/src/Traits.py),
+   [UserAttrib](https://github.com/albertz/music-player/blob/master/src/UserAttrib.py),
+   [GUI](https://github.com/albertz/music-player/blob/master/src/gui.py))
+* Traitlets (used in Jupyter)
+* Enthought Traits (for GUIs)
+* Django admin interface
