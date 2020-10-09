@@ -20,7 +20,7 @@
 
 ## Some solutions
 
-* Add extra information:
+* Add extra information (often called "traits"):
   * What should be visible to the user
   * Attribute: Just readable, or also writeable
   * How to show it
