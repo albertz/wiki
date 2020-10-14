@@ -1,5 +1,7 @@
 # Backup software
 
+Also see [backup hardware](backup-hardware.md).
+
 ## My use case
 
 ### What I want to backup
