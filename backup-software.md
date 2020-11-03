@@ -41,9 +41,13 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [rsync](https://rsync.samba.org/)
 * [duplicity](https://nongnu.org/duplicity/)
 * [Bacula](https://bacula.org/)
-* [Perkeep](https://perkeep.org/): previously Camlistore.
-    Also for indexing of pics, etc.
-    Looks close to what I want.
+* [Perkeep](https://perkeep.org/) (previously Camlistore).
+  Also for indexing of pics, etc.
+  Looks close to what I want.
+  [Comparison](https://perkeep.org/doc/compare).
+* [Upspin](https://upspin.io/)
+  ([HN](https://news.ycombinator.com/item?id=13700492)).
+  Similar to Perkeep, but different focus.
 * [Syncthing](https://syncthing.net/)
 * [bup](https://bup.github.io/)
 * [restic](https://restic.net/)
