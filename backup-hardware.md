@@ -18,8 +18,19 @@ This is then called a [Network-attached storage (NAS)](https://en.wikipedia.org/
 ## NAS
 
 Never use hardware RAID but always software RAID.
+ZFS scrub.
 
 Some references:
 
 * [Modular, extensible DIY NAS: Building the perfect, cheap DIY NAS, 2020](https://blog.georgovassilis.com/2020/04/01/building-the-perfect-cheap-diy-nas/).
   [HN discussion](https://news.ycombinator.com/item?id=24677407)
+* [Installing FreeNAS on my QNAP TS-459, 2020](https://humaidq.ae/blog/qnap/) ([HN](https://news.ycombinator.com/item?id=23529147))
+
+
+## Media
+
+* Tape
+  * [Linear Tape-Open (LTO), Wikipedia](https://en.wikipedia.org/wiki/Linear_Tape-Open)
+  * [400 TB Storage Drives In Our Future: Fujifilm, 2020](https://www.anandtech.com/show/15888/400-tb-storage-drives-in-our-future-fujifilm)
+  * LTO8: 100€ for 30TB, 30 years.
+
