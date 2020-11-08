@@ -103,3 +103,18 @@ How would the workflow look like?
 * Would that work well with once-written/offline backup media (DVD, tape)?
 * Automatic backup schedules:
   - Some trees (e.g. home dir) should automatically be synced to multiple online media.
+
+
+## [Bup](https://bup.github.io/)
+
+What's missing from Bup for the outlined use case?
+How would the workflow look like?
+Simpler than Perkeep (no concept of user, access control)
+but that might not be a dealbreaker.
+
+* Python 2?
+* The index of objects/files:
+  - Is it easily synchronized, so always up-to-date?
+  - Index is a single file? Can it be distributed? Partial?
+  - Does it contain information on what media/PC we have the data?
+    If not, can we add that?
