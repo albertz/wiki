@@ -45,7 +45,8 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [ArchLinux software list](https://wiki.archlinux.org/index.php/Synchronization_and_backup_programs)
 * [Ubuntu software list](https://help.ubuntu.com/community/BackupYourSystem)
 * [rsync](https://rsync.samba.org/)
-* [duplicity](https://nongnu.org/duplicity/)
+* [duplicity](https://nongnu.org/duplicity/). Encrypted tar-format volumes, uploading them to a remote or local file server.
+  No central index.
 * [Bacula](https://bacula.org/)
 * [Perkeep](https://perkeep.org/) (previously Camlistore).
   Also for indexing of pics, etc.
@@ -63,7 +64,9 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
   ([HN](https://news.ycombinator.com/item?id=21642364)).
   Used by rsync.net.
   Remotely encrypted backups.
-* [Rclone](https://rclone.org/)
+  No central index.
+* [Rclone](https://rclone.org/). "rsync for cloud storage".
+  No central index of stored data.
 * [BackupPC](https://backuppc.github.io/backuppc/)
 * [Bareos](https://www.bareos.org/)
 * [Areca Backup](http://www.areca-backup.org/)
