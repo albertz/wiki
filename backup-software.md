@@ -90,6 +90,12 @@ A lot of the software can be divided into:
   (e.g. Git object files, whole Linux systems, etc)
   but more for media files (images, documents).
 
+The stored backup can have its own custom format
+(e.g. for efficient incremental backups)
+or it can be stored as-is.
+A custom format means that accessing it needs custom tools,
+might support custom FUSE, but is not as efficient.
+
 Note that not all software seems to be maintained anymore.
 Check the corresponding Git repo, whether it is still active.
 
