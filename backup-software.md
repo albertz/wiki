@@ -12,7 +12,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * full Linux system including all files, such that recovering that will give me a fully functional system
 * home directories
 * archives (which are themselves backups of older computers/discs, where I don't have direct access to anymore)
-* projects (programming but also other things)
+* projects (programming but also other things) (usually Git repos)
 * my pictures
 * my music collection
 * maybe movies (not so important)
@@ -25,12 +25,18 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 ### Backup properties
 
 * Certain files are more important than others (e.g. home directory files are quite important, programming projects, mails).
-* I want to keep several copies around. Not all copy must be complete, they could maybe just have the important files.
-* Some overview where I have what backup, and which files are there, and maybe even the version of them, would be useful.
-* Some of the projects etc have their own versioning (e.g. Git repo). But this probably does not matter too much. Although it is not totally clear whether the backup system should have its own versioning support. It probably should not keep the full history of everything. Also it should be possible to permanently delete things from the whole system.
+* I want to keep several copies around (on different media, PCs, online services).
+  Not all copies must be complete, they could maybe just have the important files.
+* Some overview where (media, PCs, online service) I have what backup, and which files are there, and maybe even the version of them.
+* Some of the projects etc have their own versioning (e.g. Git repo).
+  But this probably does not matter too much.
+  Although it is not totally clear whether the backup system should have its own versioning support.
+  It probably should not keep the full history of everything.
+  Also it should be possible to permanently delete things from the whole system.
 * Copying will take long, because of huge amounts of data. There has to be some continuous update.
 * Backups on external cloud storage would be nice as well, but should be encrypted there.
-* Some projects / pictures are published elsewhere (GitHub, Google Photos or so). It would be good if the system knows that. And maybe provides an easy way to publish further directories.
+* Some projects / pictures are published elsewhere (GitHub, Google Photos or so).
+  It would be good if the system knows that. And maybe provides an easy way to publish further directories.
 
 
 ## Software
@@ -48,6 +54,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [Upspin](https://upspin.io/)
   ([HN](https://news.ycombinator.com/item?id=13700492)).
   Similar to Perkeep, but different focus.
+  Also very relevant.
 * [Syncthing](https://syncthing.net/)
 * [bup](https://bup.github.io/)
 * [restic](https://restic.net/)
@@ -73,3 +80,26 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [albertz/personal_assistant](https://github.com/albertz/personal_assistant): personal assistant. backup, or a knowledge base, is kind of an integrated part of this; or knowing where to find what data
 * [albertz/system-tools](https://github.com/albertz/system-tools), [albertz/helpers](https://github.com/albertz/helpers): small tools to sync/download things, or create projects, etc
 * [albertz/iphone-backup](https://github.com/albertz/iphone-backup)
+
+
+## [Perkeep](https://perkeep.org/)
+
+What's missing from Perkeep for the outlined use case?
+How would the workflow look like?
+
+* The index of objects/files:
+  - Is it easily synchronized, so always up-to-date?
+  - Reasonable smalll enough, so every backup instance can have the full index?
+    Or do we need partial index support?
+  - Does it contain information on what media/PC we have the data?
+    If not, can we add that?
+    (I want to see, how many copies of some objects (or tree) are there,
+     have control over that.)
+* Good idea to just push all Git object files into it?
+  - Should we then also push the checked out files into it?
+    We already have all the data from the Git objects.
+  - Can Perkeep directly read and understand the Git object files?
+    Directly accessible (read-only) via FS?
+* Would that work well with once-written/offline backup media (DVD, tape)?
+* Automatic backup schedules:
+  - Some trees (e.g. home dir) should automatically be synced to multiple online media.
