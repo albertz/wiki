@@ -75,6 +75,23 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
 
+A lot of the software can be divided into:
+
+* Standard backup software:
+  Choose what files to backup, and where.
+  You are responsible for how many copies there are,
+  and to keep track what files are backuped where.
+  I.e. there is no global index of all files.
+  They might be simpler to use, though.
+* Global index based systems,
+  like [Perkeep](https://perkeep.org/) or [Upspin](https://upspin.io/).
+  They are not designed to work with lots of small files
+  (e.g. Git object files, whole Linux systems, etc)
+  but more for media files (images, documents).
+
+Note that not all software seems to be maintained anymore.
+Check the corresponding Git repo, whether it is still active.
+
 
 ## Related software
 
