@@ -71,6 +71,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [Bareos](https://www.bareos.org/)
 * [Areca Backup](http://www.areca-backup.org/)
 * [Burp](https://burp.grke.org/)
+* [git-annex](https://git-annex.branchable.com/)
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
