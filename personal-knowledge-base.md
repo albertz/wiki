@@ -64,4 +64,8 @@ Some of these solutions only cover some parts of what would make a useful person
   Number of linked text files that have their own syntax highlighting.
 * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
   Collective community effort for a knowledge base (not personal).
+* [Johnny Decimal](https://johnnydecimal.com/) ([HN](https://news.ycombinator.com/item?id=25398027)):
+  A system to organise projects.
+  Organization on the file system, to search and find things.
+
 
