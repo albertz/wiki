@@ -72,6 +72,7 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
 * [Areca Backup](http://www.areca-backup.org/)
 * [Burp](https://burp.grke.org/)
 * [git-annex](https://git-annex.branchable.com/)
+* [Datalad](https://www.datalad.org/). On top of git-annex.
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
@@ -166,4 +167,12 @@ Would I just go in one of the copies
 and do `git init` and `git annex init`?
 
 [Question in forum](https://git-annex.branchable.com/forum/Import_existing_files/)
+
+### How to manage alternative keys
+
+E.g. via local sensitive hashing (LSH).
+
+[Question in forum](https://git-annex.branchable.com/forum/Fuzzy_local_sensitive_hashing___40__LSH__41__/)
+
+### Difference to Datalad
 
