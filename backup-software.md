@@ -164,3 +164,6 @@ E.g. my current picture collections, which is already distributed, and partial i
 
 Would I just go in one of the copies
 and do `git init` and `git annex init`?
+
+[Question in forum](https://git-annex.branchable.com/forum/Import_existing_files/)
+
