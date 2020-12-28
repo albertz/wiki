@@ -130,7 +130,8 @@ Check the corresponding Git repo, whether it is still active.
 * [albertz/system-tools](https://github.com/albertz/system-tools), [albertz/helpers](https://github.com/albertz/helpers): small tools to sync/download things, or create projects, etc
 * [albertz/iphone-backup](https://github.com/albertz/iphone-backup)
 * [Baloo](https://community.kde.org/Baloo) or others for indexing
-* [Solid Google Takeout importer](https://github.com/solid/solid-takeout-import): import Google Takeout
+* [Solid project](https://solidproject.org/),
+  e.g. [Solid Google Takeout importer](https://github.com/solid/solid-takeout-import)
 
 
 ## [Perkeep](https://perkeep.org/)
