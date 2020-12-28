@@ -39,6 +39,20 @@ Also, temporary files might/should be excluded (e.g. `/tmp/*`).
   It would be good if the system knows that. And maybe provides an easy way to publish further directories.
 
 
+### File Index
+
+In any case, I want to have an index of all the files,
+and that index should contain meta information,
+e.g. what backups contain the file, and other things.
+
+The index could be part of the backup solution,
+or external (but it should know about the multiple copies).
+
+[Git-Annex](https://git-annex.branchable.com/) might be an option.
+
+[Baloo](https://community.kde.org/Baloo) or others are maybe relevant for a search index.
+
+
 ## Software
 
 * [Wikipedia software list](https://en.wikipedia.org/wiki/List_of_backup_software)
@@ -176,3 +190,9 @@ E.g. via local sensitive hashing (LSH).
 
 ### Difference to Datalad
 
+
+## [Syncthing](http://syncthing.net)
+
+### How good is the partial directory support?
+
+Good also in the sense of how easy it is to use.
