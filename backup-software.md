@@ -87,6 +87,8 @@ or external (but it should know about the multiple copies).
 * [Burp](https://burp.grke.org/)
 * [git-annex](https://git-annex.branchable.com/)
 * [Datalad](https://www.datalad.org/). On top of git-annex.
+* [Dat](http://datproject.org)
+* [Unison File Synchronizer](https://www.cis.upenn.edu/~bcpierce/unison/)
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
@@ -126,6 +128,8 @@ Check the corresponding Git repo, whether it is still active.
 * [albertz/personal_assistant](https://github.com/albertz/personal_assistant): personal assistant. backup, or a knowledge base, is kind of an integrated part of this; or knowing where to find what data
 * [albertz/system-tools](https://github.com/albertz/system-tools), [albertz/helpers](https://github.com/albertz/helpers): small tools to sync/download things, or create projects, etc
 * [albertz/iphone-backup](https://github.com/albertz/iphone-backup)
+* [Baloo](https://community.kde.org/Baloo) or others for indexing
+* [Solid Google Takeout importer](https://github.com/solid/solid-takeout-import): import Google Takeout
 
 
 ## [Perkeep](https://perkeep.org/)
@@ -135,7 +139,7 @@ How would the workflow look like?
 
 * The index of objects/files:
   - Is it easily synchronized, so always up-to-date?
-  - Reasonable smalll enough, so every backup instance can have the full index?
+  - Reasonable small enough, so every backup instance can have the full index?
     Or do we need partial index support?
   - Does it contain information on what media/PC we have the data?
     If not, can we add that?
