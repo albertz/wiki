@@ -88,7 +88,8 @@ or external (but it should know about the multiple copies).
 * [git-annex](https://git-annex.branchable.com/)
 * [Datalad](https://www.datalad.org/). On top of git-annex.
 * [Dat](http://datproject.org)
-* [Unison File Synchronizer](https://www.cis.upenn.edu/~bcpierce/unison/)
+* [Unison File Synchronizer](https://www.cis.upenn.edu/~bcpierce/unison/). project dead.
+* [Seafile](https://github.com/haiwen/seafile)
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
