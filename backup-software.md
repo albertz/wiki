@@ -84,6 +84,7 @@ A lot of the software can be divided into:
   and to keep track what files are backuped where.
   I.e. there is no global index of all files.
   They might be simpler to use, though.
+
 * Global index based systems,
   like [Perkeep](https://perkeep.org/) or [Upspin](https://upspin.io/).
   They are not designed to work with lots of small files
@@ -95,6 +96,9 @@ The stored backup can have its own custom format
 or it can be stored as-is.
 A custom format means that accessing it needs custom tools,
 might support custom FUSE, but is not as efficient.
+
+It might make sense to decouple the storage of the files (maybe just as-is)
+from the index (to keep track which backup or remote contains what files, etc).
 
 Note that not all software seems to be maintained anymore.
 Check the corresponding Git repo, whether it is still active.
@@ -145,3 +149,18 @@ but that might not be a dealbreaker.
   - Index is a single file? Can it be distributed? Partial?
   - Does it contain information on what media/PC we have the data?
     If not, can we add that?
+
+
+## [Git-Annex](https://git-annex.branchable.com/)
+
+### Create multiple repos or one single?
+
+If a single repo (maybe more convenient),
+how would I link existing files into it?
+
+### How to setup for existing files?
+
+E.g. my current picture collections, which is already distributed, and partial in each copy.
+
+Would I just go in one of the copies
+and do `git init` and `git annex init`?
