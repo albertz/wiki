@@ -67,5 +67,5 @@ Some of these solutions only cover some parts of what would make a useful person
 * [Johnny Decimal](https://johnnydecimal.com/) ([HN](https://news.ycombinator.com/item?id=25398027)):
   A system to organise projects.
   Organization on the file system, to search and find things.
-
-
+* [https://wiki.nikitavoloboev.xyz/](Everything I Know – Wiki - Nikita Voloboev)
+  ([GitHub](https://github.com/nikitavoloboev/knowledge), [HN](https://news.ycombinator.com/item?id=25903596))
