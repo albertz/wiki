@@ -62,4 +62,4 @@ Most importantly:
 * [Enthought Traits](https://github.com/enthought/traits) and [TraitsUI](https://github.com/enthought/traitsui) (for GUIs)
 * [GoKi Views](https://github.com/goki/gi/wiki/Views)
 * [Glamorous Toolkit](https://gtoolkit.com/)
-* Smalltalk / [Pharo](https://pharo.org/)
+* Smalltalk / [Pharo](https://pharo.org/) (Live customizable objects inspection)
