@@ -61,3 +61,5 @@ Most importantly:
 * [IPython Traitlets](https://github.com/ipython/traitlets) (used in IPython/Jupyter)
 * [Enthought Traits](https://github.com/enthought/traits) and [TraitsUI](https://github.com/enthought/traitsui) (for GUIs)
 * [GoKi Views](https://github.com/goki/gi/wiki/Views)
+* [Glamorous Toolkit](https://gtoolkit.com/)
+* Smalltalk / [Pharo](https://pharo.org/)
