@@ -60,3 +60,4 @@ Most importantly:
    [GUI](https://github.com/albertz/music-player/blob/master/src/gui.py))
 * [IPython Traitlets](https://github.com/ipython/traitlets) (used in IPython/Jupyter)
 * [Enthought Traits](https://github.com/enthought/traits) and [TraitsUI](https://github.com/enthought/traitsui) (for GUIs)
+* [GoKi Views](https://github.com/goki/gi/wiki/Views)
