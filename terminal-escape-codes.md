@@ -14,6 +14,8 @@ Existing escape code lists and extensions:
 ## Text with ANSI colors
 
 * [list](https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences)
+* [Determining whether the background is light or dark](https://stackoverflow.com/a/54652367/133374)
+  ([ex](https://github.com/neovim/neovim/issues/2764), [ex](https://github.com/vim/vim/blob/05c00c038bc16e862e17f9e5c8d5a72af6cf7788/src/option.c#L3974))
 
 
 ## Hyperlinks
