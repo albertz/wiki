@@ -7,8 +7,9 @@ Existing escape code lists and extensions:
 
 * [iTerm2 list, with some extended escape codes](https://www.iterm2.com/documentation-escape-codes.html)
 * [hterm list](https://github.com/chromium/hterm/blob/master/doc/ControlSequences.md)
-* [other extensions](http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes)
-* superscript/subscript: [here](https://stackoverflow.com/questions/42473819/are-there-ansi-escape-sequences-for-superscript-and-subscript)
+* [Kitty list](https://sw.kovidgoyal.net/kitty/protocol-extensions.html)
+* [Changing cursor shape](http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes)
+* [Superscript/subscript](https://stackoverflow.com/questions/42473819/are-there-ansi-escape-sequences-for-superscript-and-subscript)
 
 
 ## Text with ANSI colors
