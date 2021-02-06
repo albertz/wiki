@@ -174,3 +174,20 @@ and QtCreator for C++.
 VSCode is also nice for smaller scripts or text files.
 
 Also see the TensorFlow example above.
+
+## Hot code reloading
+
+Patch some function (or class, or other things) while the program is running.
+This extremely reduces the feedback loop, which can be very important for productivity.
+
+This could be a whole topic on its own. Short for now.
+
+* Python:
+   * [Reloadr](https://github.com/hoh/reloadr) ([HN discussion](https://news.ycombinator.com/item?id=26035623)),
+   * IPython autoreload
+   * [xreload](https://github.com/plone/plone.reload/blob/master/plone/reload/xreload.py)
+   * [reloading](https://github.com/julvo/reloading)
+* Visual Studio: C# / C++ / VB "edit and continue"
+* Java
+* Erlang
+
