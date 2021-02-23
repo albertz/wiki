@@ -87,14 +87,26 @@ There are different approaches, and probably you would do a mixture of them.
 This is not meant to be complete.
 This will also depend on your interests and backgrounds.
 
-* Linux kernel. C code. Very big. Style somewhat inconsistent, depending on the part.
-* Chrome / Chromium. C++. Very big. Mostly clean code, consistent style.
-* Firefox. C++. Very big. Older than Chrome (you will notice).
-* Quake 1, 2, 3, and also Doom, basically all id engines. Mostly C.
+* [Linux kernel](https://github.com/torvalds/linux).
+  C code. Very big. Style somewhat inconsistent, depending on the part.
+* [Chrome / Chromium](https://chromium.googlesource.com/chromium/src).
+  C++. Very big. Mostly clean code, consistent style.
+* [Firefox](https://searchfox.org/mozilla-central/source/).
+  C++. Very big. Older than Chrome (you will notice).
+* Quake [1](https://github.com/id-Software/Quake),
+  [2](https://github.com/id-Software/Quake-2),
+  [3](https://github.com/id-Software/Quake-III-Arena),
+  and also [Doom](https://github.com/id-Software/DOOM),
+  basically [all id engines](https://github.com/id-Software).
+  Mostly C.
   Very clean code, very easy to understand. Highly recommended.
-* CPython. C. Medium size. Mostly clean code, easy to understand.
-* TensorFlow. Core in C++. Another layer of Python on-top. Very big. Mostly clean code, consistent style.
-* PyTorch. C++ and Python, similar as TensorFlow but much smaller.
+* [CPython](https://github.com/python/cpython/).
+  C. Medium size. Mostly clean code, easy to understand.
+* [TensorFlow](https://github.com/tensorflow/tensorflow).
+  Core in C++. Another layer of Python on-top. Very big. Mostly clean code, consistent style.
+* [PyTorch](https://github.com/pytorch/pytorch/).
+  C++ and Python, similar as TensorFlow but much smaller.
+* [Mold: A modern linker](https://github.com/rui314/mold)
 
 Check out [GitHub explore](https://github.com/explore),
 or [Fabien Sanglard](https://fabiensanglard.net/).
