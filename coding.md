@@ -106,7 +106,8 @@ This will also depend on your interests and backgrounds.
   Core in C++. Another layer of Python on-top. Very big. Mostly clean code, consistent style.
 * [PyTorch](https://github.com/pytorch/pytorch/).
   C++ and Python, similar as TensorFlow but much smaller.
-* [Mold: A modern linker](https://github.com/rui314/mold)
+* [Mold: A modern linker](https://github.com/rui314/mold).
+  C++. Small so far, clean code, and you will learn a lot of the internals of a linker.
 
 Check out [GitHub explore](https://github.com/explore),
 or [Fabien Sanglard](https://fabiensanglard.net/).
