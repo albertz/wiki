@@ -18,6 +18,10 @@ I mean, properly documenting everything is of course nice, but even if that is d
 And in practice, it never is done consistently.
 ([HN discussion](https://news.ycombinator.com/item?id=22912226).)
 
+This uses [`local-history-add.py`](https://github.com/albertz/helpers/blob/master/local-history-add.py)
+from my [helpers](https://github.com/albertz/helpers)
+(also part as a submodule of my [system-tools](https://github.com/albertz/system-tools)).
+
 For Bash, in `~/.bashrc`:
 
     export PROMPT_COMMAND="myLocalHistory"
@@ -39,5 +43,3 @@ For Fish, in `~/.config/fish/config.fish`:
     function fish_preexec --on-event fish_preexec
         ~/dotfiles/system-tools/helpers/local-history-add.py $argv & disown
     end
-
-The script local-history-add.py is [here](https://github.com/albertz/helpers/blob/master/local-history-add.py).
