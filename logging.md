@@ -3,6 +3,7 @@
 
 Of apps, tools, scripts, etc.
 Usually to stdout. Related are the [terminal escape codes](terminal-escape-codes.md).
+But could also be structured, and go to some file, see below.
 
 Further *very* helpful features I want from logging:
 
