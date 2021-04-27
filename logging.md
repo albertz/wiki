@@ -50,8 +50,28 @@ Refs:
 * [ansi2html](https://pypi.org/project/ansi2html/) ([GitHub](https://github.com/ralphbean/ansi2html)):
   convert ANSI terminal escape codes to HTML
   (could be extended by the folding feature)
+* [html_logger.py](https://gist.github.com/ColinDuquesnoy/8296508)
 * Discuss on [Freenode #Python](https://webchat.freenode.net/)
 * [TeXMe (Self-Rendering (live) Markdown)](https://opendocs.github.io/texme/examples/demo.html)
   (Nice because it only needs a small prefix in the HTML,
    and the rest can stay standard stdout, so can also be read in terminal.
    The same property would be useful for logging to HTML.)
+
+
+# Structured logging
+
+Can use nested hierarchies.
+Very straight-forward extension of foldable data.
+Straight-forward would be to use sth like JSON.
+E.g. a stacktrace would be very straight-forward to save as structured data.
+
+References:
+
+* [Python structlog](https://github.com/hynek/structlog)
+* [python-json-logger](https://github.com/madzak/python-json-logger)
+* [Fluentd](https://www.fluentd.org/)
+* [Kibana](https://www.elastic.co/kibana)
+* [Message Templates](https://messagetemplates.org/)
+* Maybe use systemd journald, or its file format?
+* Maybe directly dump to some binary JSON-like format?
+* TensorFlow event files?
