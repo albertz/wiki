@@ -93,6 +93,7 @@ or external (but it should know about the multiple copies).
 * [albertz/backup_system](https://github.com/albertz/backup_system): incomplete
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
+* [imap-backup](https://github.com/joeyates/imap-backup)
 
 A lot of the software can be divided into:
 
