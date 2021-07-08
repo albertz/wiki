@@ -1,6 +1,7 @@
 # Backup software
 
 Also see [backup hardware](backup-hardware.md).
+Also see [personal knowledge base](personal-knowledge-base.md).
 
 ## My use case
 
