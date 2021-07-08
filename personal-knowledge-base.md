@@ -49,6 +49,7 @@ Some of these solutions only cover some parts of what would make a useful person
 
 ## Related discussions and projects
 
+* [Backup software](backup-software.md)
 * TODO lists. Getting things done (GTD). Organize how long some task takes, its deadlines, etc.
 * Calendar (covering deadlines of tasks)
 * Zettelkästen ([HN](https://news.ycombinator.com/item?id=21208196), [blog](https://clerestory.netlify.com/zk/))
