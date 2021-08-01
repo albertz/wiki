@@ -68,5 +68,6 @@ Some of these solutions only cover some parts of what would make a useful person
 * [Johnny Decimal](https://johnnydecimal.com/) ([HN](https://news.ycombinator.com/item?id=25398027)):
   A system to organise projects.
   Organization on the file system, to search and find things.
+* [Stephen Wolfram: Seeking the Productive Life: Some Details of My Personal Infrastructure](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/)
 * [Everything I Know – Wiki - Nikita Voloboev](https://wiki.nikitavoloboev.xyz/)
   ([GitHub](https://github.com/nikitavoloboev/knowledge), [HN](https://news.ycombinator.com/item?id=25903596))
