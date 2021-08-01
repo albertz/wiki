@@ -1,6 +1,7 @@
 # Backup software
 
-Also see [backup hardware](backup-hardware.md).
+Also see [backup hardware](backup-hardware.md)
+and [backup cloud](backup-cloud.md).
 Also see [personal knowledge base](personal-knowledge-base.md).
 
 ## My use case
@@ -78,6 +79,7 @@ or external (but it should know about the multiple copies).
 * [BorgBackup](https://www.borgbackup.org/)
   ([HN](https://news.ycombinator.com/item?id=21642364)).
   Used by rsync.net.
+  [Special cheap rsync.net cloud storage support](https://www.rsync.net/products/borg.html).
   Remotely encrypted backups.
   No central index.
 * [Rclone](https://rclone.org/). "rsync for cloud storage".
