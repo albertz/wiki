@@ -72,7 +72,8 @@ or external (but it should know about the multiple copies).
   ([HN](https://news.ycombinator.com/item?id=13700492)).
   Similar to Perkeep, but different focus.
   Also very relevant.
-* [Syncthing](https://syncthing.net/)
+* [Syncthing](https://syncthing.net/) ([HN](https://news.ycombinator.com/item?id=27929194))
+* [FreeFileSync](https://freefilesync.org/)
 * [bup](https://bup.github.io/)
 * [restic](https://restic.net/)
 * [Box Backup](https://www.boxbackup.org/)
@@ -208,6 +209,8 @@ E.g. via local sensitive hashing (LSH).
 
 
 ## [Syncthing](http://syncthing.net)
+
+[HN](https://news.ycombinator.com/item?id=27929194)
 
 ### How good is the partial directory support?
 
