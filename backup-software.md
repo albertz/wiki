@@ -136,6 +136,12 @@ Check the corresponding Git repo, whether it is still active.
   e.g. [Solid Google Takeout importer](https://github.com/solid/solid-takeout-import)
 
 
+## Related articles
+
+* [unixsheikh.com: How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html) ([HN](https://news.ycombinator.com/item?id=28003119)): using ZFS
+* [stavros.io: I found the Holy Grail of backups](https://www.stavros.io/posts/holy-grail-backups/): using Borg
+
+
 ## [Perkeep](https://perkeep.org/)
 
 What's missing from Perkeep for the outlined use case?
