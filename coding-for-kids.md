@@ -11,3 +11,4 @@ Maybe I will add some own comments or experiences later.
   German, pseudo code + object pascal later, on the example of [my Robot2 project](https://github.com/albertz/Robot2).
 * [My PyOverheadGame project](https://github.com/albertz/PyOverheadGame),
   as an educational Python game.
+* [albertz / Coding-Game-Intro](https://github.com/albertz/Coding-Game-Intro)
