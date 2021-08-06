@@ -2,6 +2,7 @@
 
 This is just some resource collection.
 Maybe I will add some own comments or experiences later.
+See also [coding in general](coding.md).
 
 
 # Links
