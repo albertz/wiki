@@ -34,36 +34,26 @@ Features I want:
 
 Existing software:
 
-* [perf](https://en.wikipedia.org/wiki/Perf_(Linux)).
-
+* [perf](https://en.wikipedia.org/wiki/Perf_(Linux)) (C).
     Run `perf record -p pid` and then `perf report --stdio`.
     Maybe `perf record -g dwarf -p pid`.
-
-* [gperftools](https://github.com/gperftools/gperftools).
+* [gperftools](https://github.com/gperftools/gperftools) (C).
     Google.
-
-* gperf. GNU. Needs to be compiled with such support.
-
-* `gdb -p pid`. No real profiling, but helps at least to debug a permanent hang.
-
-* [Sysprof](http://www.sysprof.com/).
+* gperf (C). GNU. Needs to be compiled with such support.
+* `gdb -p pid` (C). No real profiling, but helps at least to debug a permanent hang.
+* [Sysprof](http://www.sysprof.com/) (C).
     System-wide, i.e. not quite what I want here.
-
-* [IgProf](https://igprof.org/)
-
-* DTrace.
-
-* eBPF, like DTrace, since Linux 4.9.
-
-* ftrace
-
-* LTTng
-
-* [Pyflame](https://github.com/uber/pyflame). For Python. deprecated.
-
-* [Py-Spy](https://github.com/benfred/py-spy). For Python.
-
-* [austin](https://github.com/P403n1x87/austin). For Python.
+* [IgProf](https://igprof.org/) (C)
+* DTrace (C).
+* eBPF (C), like DTrace, since Linux 4.9.
+* ftrace (C)
+* LTTng (C)
+* [magic-trace](https://github.com/janestreet/magic-trace) (C)
+* [Pyflame](https://github.com/uber/pyflame) (Python). deprecated.
+* [Py-Spy](https://github.com/benfred/py-spy) (Python).
+* [austin](https://github.com/P403n1x87/austin) (Python).
+* [memray](https://github.com/bloomberg/memray) (Python).
+  [HN](https://news.ycombinator.com/item?id=31102089).
 
 Some useful StackOverflow questions:
 
