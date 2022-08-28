@@ -15,4 +15,5 @@ Fish:
 Tmux:
 [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect/),
 [tmux resurrect fish issue 217](https://github.com/tmux-plugins/tmux-resurrect/issues/217),
-[Fish issue 4705](https://github.com/fish-shell/fish-shell/issues/4705)
+[Fish issue 4705](https://github.com/fish-shell/fish-shell/issues/4705),
+[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
