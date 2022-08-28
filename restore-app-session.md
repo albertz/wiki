@@ -6,4 +6,8 @@ OSX Terminal:
 [Restore specific Terminal history from .bash_sessions?](https://apple.stackexchange.com/questions/311548/restore-specific-terminal-history-from-bash-sessions),
 `TERM_SESSION_ID` env var
 
+Bash: `BASH_SESSION` env var?
+
+Fish: `fish_history` env var?
+
 Tmux/Fish: https://github.com/fish-shell/fish-shell/issues/4705
