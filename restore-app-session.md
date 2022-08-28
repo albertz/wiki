@@ -11,6 +11,7 @@ Bash: `BASH_SESSION` env var?
 Fish:
 `fish_history` env var?
 [fish_apple_terminal.fish](https://github.com/sparanoid/fish_apple_terminal).
+[`trap ... EXIT`](https://fishshell.com/docs/current/cmds/trap.html).
 
 Tmux:
 [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect/),
