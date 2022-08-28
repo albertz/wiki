@@ -1,11 +1,17 @@
 # Overall
 
+## OSX
+
 OSX will save/restore application state across restarts, i.e. restore all windows with the same state as before.
 
 I want that with a deep call hierarchy, even across systems, across Terminal.app, fish, mosh, ssh, tmux, etc.
 More specifically, my common call stack:
 
-  Terminal.app -> fish -> mosh i6-direct -> ssh sulfid -> tmux a || tmux
+  OSX -> Terminal.app -> fish -> mosh i6-direct -> ssh sulfid -> tmux a || tmux
+
+* OSX Terminal.app restore is already handled by OSX.
+* fish save/restore (inside OSX Terminal.app) can be done via fish event handlers
+* mosh: mosh-client has host, server IP and UDP port in it; mosh-server, can see open UDP socket (/proc/pid/fd), check port (/proc/pid/net/udp)
 
 
 # Technical
