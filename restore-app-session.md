@@ -15,12 +15,19 @@
 ## Fish
 
 `fish_history` env var?
+
 [fish_apple_terminal.fish](https://github.com/sparanoid/fish_apple_terminal).
+
 [`trap ... EXIT`](https://fishshell.com/docs/current/cmds/trap.html)
 -> only single trap per session, so do not use this, use event handlers instead, `fish_exit` event.
 
 Could setup [`fish_preexec` and `fish_postexec` event handlers](https://fishshell.com/docs/current/cmds/function.html#cmd-function) to store current active command,
 per session ID (`TERM_SESSION_ID`).
+
+([Autoloading functions](https://fishshell.com/docs/current/language.html#autoloading-functions)
+does not work for event handler functions.)
+
+[Fish config](https://fishshell.com/docs/current/index.html#configuration) for startup script (startup event) + setting up other events.
 
 ## Tmux
 
