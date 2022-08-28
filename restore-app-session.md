@@ -1,3 +1,21 @@
+# Overall
+
+OSX will save/restore application state across restarts, i.e. restore all windows with the same state as before.
+
+I want that with a deep call hierarchy, even across systems, across Terminal.app, fish, mosh, ssh, tmux.
+More specifically, my common call stack:
+
+  Terminal.app -> fish -> mosh i6-direct -> ssh sulfid -> tmux a || tmux
+
+
+# Technical
+
+## Generic
+
+[CRIU: Checkpoint/Restore In Userspace, for Linux](https://criu.org/).
+
+[DMTCP: Distributed MultiThreaded CheckPointing](https://dmtcp.sourceforge.io/).
+
 ## OSX AppKit level
 
 [Core app design: User Interface Preservation](https://developer.apple.com/library/archive/documentation/General/Conceptual/MOSXAppProgrammingGuide/CoreAppDesign/CoreAppDesign.html#//apple_ref/doc/uid/TP40010543-CH3-SW10),
@@ -36,6 +54,6 @@ does not work for event handler functions.)
 [Fish issue 4705](https://github.com/fish-shell/fish-shell/issues/4705),
 [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
 
-[CRIU: Checkpoint/Restore In Userspace, for Linux](https://criu.org/).
+## Mosh
 
-[DMTCP: Distributed MultiThreaded CheckPointing](https://dmtcp.sourceforge.io/).
+Reattach existing session: [not really possible](https://github.com/mobile-shell/mosh/issues/394), except maybe generic solutions like CRIU
