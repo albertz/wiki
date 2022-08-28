@@ -2,7 +2,7 @@
 
 OSX will save/restore application state across restarts, i.e. restore all windows with the same state as before.
 
-I want that with a deep call hierarchy, even across systems, across Terminal.app, fish, mosh, ssh, tmux.
+I want that with a deep call hierarchy, even across systems, across Terminal.app, fish, mosh, ssh, tmux, etc.
 More specifically, my common call stack:
 
   Terminal.app -> fish -> mosh i6-direct -> ssh sulfid -> tmux a || tmux
@@ -21,7 +21,7 @@ More specifically, my common call stack:
 [Core app design: User Interface Preservation](https://developer.apple.com/library/archive/documentation/General/Conceptual/MOSXAppProgrammingGuide/CoreAppDesign/CoreAppDesign.html#//apple_ref/doc/uid/TP40010543-CH3-SW10),
 [`restoreWindow`](https://developer.apple.com/documentation/appkit/nswindowrestoration/1526251-restorewindow) and co
 
-## OSX Terminal
+## OSX Terminal.app
 
 [Restore specific Terminal history from .bash_sessions?](https://apple.stackexchange.com/questions/311548/restore-specific-terminal-history-from-bash-sessions),
 `TERM_SESSION_ID` env var
