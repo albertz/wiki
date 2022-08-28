@@ -10,4 +10,4 @@ Bash: `BASH_SESSION` env var?
 
 Fish: `fish_history` env var?
 
-Tmux/Fish: https://github.com/fish-shell/fish-shell/issues/4705
+Tmux: [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect/), [tmux resurrect fish issue](https://github.com/tmux-plugins/tmux-resurrect/issues/217), [Fish issue](https://github.com/fish-shell/fish-shell/issues/4705)
