@@ -6,7 +6,7 @@
 
 * Any random short question -> [Quora](https://quora.com/)
 
-* Question with more open follow-up discussion -> ?
+* Question with more open follow-up discussion -> ? Maybe discussion-oriented subreddits
 
 
 # Site
