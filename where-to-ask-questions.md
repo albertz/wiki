@@ -6,7 +6,11 @@
 
 * Any random short question -> [Quora](https://quora.com/)
 
-* Question with more open follow-up discussion -> ? Maybe discussion-oriented subreddits
+* Question with more open follow-up discussion
+   * Maybe discussion-oriented subreddits?
+   * Any old-school forums, but I don't really know any active ones?
+   * Some GitHub projects have enabled the discussion forum, e.g. [JAX](https://github.com/google/jax/discussions)
+   * Some projects have an own discussion forum, e.g. [PyTorch](https://discuss.pytorch.org/)
 
 
 # Site
