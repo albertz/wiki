@@ -50,10 +50,11 @@ Existing software:
 * LTTng (C)
 * [magic-trace](https://github.com/janestreet/magic-trace) (C)
 * [Pyflame](https://github.com/uber/pyflame) (Python). deprecated.
-* [Py-Spy](https://github.com/benfred/py-spy) (Python).
-* [austin](https://github.com/P403n1x87/austin) (Python).
-* [memray](https://github.com/bloomberg/memray) (Python).
+* [Py-Spy](https://github.com/benfred/py-spy) (Python). CPU. Fast.
+* [austin](https://github.com/P403n1x87/austin) (Python). CPU+memory. Fast.
+* [memray](https://github.com/bloomberg/memray) (Python). Memory.
   [HN](https://news.ycombinator.com/item?id=31102089).
+* [Scalene](https://github.com/plasma-umass/scalene) (Python). CPU+GPU+memory. Fast.
 
 Some useful StackOverflow questions:
 
