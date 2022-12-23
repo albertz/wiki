@@ -27,22 +27,15 @@ Existing escape code lists and extensions:
 ## Images
 
 * [terminal-wg issue](https://gitlab.freedesktop.org/terminal-wg/specifications/issues/12)
+* iTerm2: OSC 1337. only iTerm2 currently.
+  Maybe others (xterm.js etc) will follow.
+  [documentation](http://iterm2.com/documentation-images.html)
+* Kitty: [Terminal graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/).
+  ([Issue with discussions](https://github.com/kovidgoyal/kitty/issues/33).)
+* mintty: [image-support](https://github.com/mintty/mintty/wiki/CtrlSeqs#image-support)
 * [xterm.js issue](https://github.com/xtermjs/xterm.js/issues/614)
 * [IPython issue](https://github.com/ipython/ipython/pull/10610)
 * [neofetch source code](https://github.com/dylanaraps/neofetch/blob/master/neofetch) (see `display_image`)
-
-### Kitty
-
-[Terminal graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/).
-([Issue with discussions](https://github.com/kovidgoyal/kitty/issues/33).)
-
-### iTerm2 OSC 1337
-
-Only iTerm2 currently.
-Maybe others (xterm.js etc) will follow.
-
-* [documentation](http://iterm2.com/documentation-images.html)
-
 
 ### Sixel
 
