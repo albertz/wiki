@@ -71,3 +71,4 @@ Some of these solutions only cover some parts of what would make a useful person
 * [Stephen Wolfram: Seeking the Productive Life: Some Details of My Personal Infrastructure](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/)
 * [Everything I Know – Wiki - Nikita Voloboev](https://wiki.nikitavoloboev.xyz/)
   ([GitHub](https://github.com/nikitavoloboev/knowledge), [HN](https://news.ycombinator.com/item?id=25903596))
+* [`nb` is a command line and local web note‑taking, bookmarking, archiving, and knowledge base application](https://xwmx.github.io/nb/)
