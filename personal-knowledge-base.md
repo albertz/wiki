@@ -72,3 +72,4 @@ Some of these solutions only cover some parts of what would make a useful person
 * [Everything I Know – Wiki - Nikita Voloboev](https://wiki.nikitavoloboev.xyz/)
   ([GitHub](https://github.com/nikitavoloboev/knowledge), [HN](https://news.ycombinator.com/item?id=25903596))
 * [`nb` is a command line and local web note‑taking, bookmarking, archiving, and knowledge base application](https://xwmx.github.io/nb/)
+* [Foam is a personal knowledge management and sharing system inspired by Roam Research](https://foambubble.github.io/foam/)
