@@ -119,6 +119,9 @@ Follow other interesting developers
 (You can also check out [my GitHub repos](https://github.com/albertz),
 but they cannot really be compared to these big names.)
 
+Related articles:
+* [Educational Codebases HN discussion](https://news.ycombinator.com/item?id=37215400)
+
 ### TensorFlow
 
 This is an example of browsing locally through the TensorFlow code.
