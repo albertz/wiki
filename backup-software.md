@@ -76,6 +76,7 @@ or external (but it should know about the multiple copies).
 * [FreeFileSync](https://freefilesync.org/)
 * [bup](https://bup.github.io/)
 * [restic](https://restic.net/)
+* [Kopia](https://kopia.io/) ([HN](https://news.ycombinator.com/item?id=37526477))
 * [Box Backup](https://www.boxbackup.org/)
 * [BorgBackup](https://www.borgbackup.org/)
   ([HN](https://news.ycombinator.com/item?id=21642364)).
