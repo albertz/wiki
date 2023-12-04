@@ -8,6 +8,7 @@ Refs:
 
 Related:
 
+* [This wiki: coding](coding.md)
 * [This wiki: debugging](debugging.md)
 * [This wiki: profiling](profiling.md)
 * [Stas Bekman - The Art of Debugging](https://github.com/stas00/the-art-of-debugging/)
