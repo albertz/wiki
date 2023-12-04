@@ -3,6 +3,7 @@
 * [behnkuhn.net, Essays on programming](https://www.benkuhn.net/progessays/) ([HN](https://news.ycombinator.com/item?id=23903737))
 * [Rich Hickey, Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
 * [Sandi Metz, The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+* [ML engineering](ml-engineering.md)
 
 
 # Playground
