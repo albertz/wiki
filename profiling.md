@@ -45,7 +45,7 @@ Existing software:
     System-wide, i.e. not quite what I want here.
 * [IgProf](https://igprof.org/) (C)
 * DTrace (C).
-* eBPF (C), like DTrace, since Linux 4.9.
+* eBPF (C, native), like DTrace, since Linux 4.9.
 * ftrace (C)
 * LTTng (C)
 * [magic-trace](https://github.com/janestreet/magic-trace) (C)
