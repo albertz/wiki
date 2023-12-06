@@ -55,9 +55,14 @@ Existing software:
 * [memray](https://github.com/bloomberg/memray) (Python). Memory.
   [HN](https://news.ycombinator.com/item?id=31102089).
 * [Scalene](https://github.com/plasma-umass/scalene) (Python). CPU+GPU+memory. Fast.
+* Tracing UI: [Perfetto](https://ui.perfetto.dev/) with [Chromium Event JSON Format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview), [Fuchsia Trace Format](https://fuchsia.dev/fuchsia-src/reference/tracing/trace-format), [Perfetto Protobuf](https://github.com/google/perfetto/blob/master/protos/perfetto/trace/perfetto_trace.proto) ([details](https://thume.ca/2023/12/02/tracing-methods/))
 
 Some useful StackOverflow questions:
 
 * [How can I profile C++ code running on Linux?](https://stackoverflow.com/questions/375913/how-can-i-profile-c)
 * [How can I get perf to find symbols in my program](https://stackoverflow.com/questions/10933408/how-can-i-get-perf-to-find-symbols-in-my-program)
 * [Can I get the python call stack with the linux perf?](https://stackoverflow.com/questions/26902991/can-i-get-the-python-call-stack-with-the-linux-perf)
+
+Other refs:
+
+* [Tristan Hume - All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more](https://thume.ca/2023/12/02/tracing-methods/)
