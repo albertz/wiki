@@ -5,6 +5,8 @@ Refs:
 * [RETURNN wiki: Analysing neural networks](https://github.com/rwth-i6/returnn/wiki/Analysing-neural-networks)
 * [RETURNN Debugging doc](https://returnn.readthedocs.io/en/latest/advanced/debugging.html)
 * [RETURNN wiki: debugging](https://github.com/rwth-i6/returnn/wiki/Debugging)
+* [Google Brain - Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
+
 
 Related:
 
