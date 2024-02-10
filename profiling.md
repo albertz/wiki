@@ -51,6 +51,7 @@ Existing software:
 * [magic-trace](https://github.com/janestreet/magic-trace) (C)
 * [Pyflame](https://github.com/uber/pyflame) (Python). deprecated.
 * [Py-Spy](https://github.com/benfred/py-spy) (Python). CPU. Fast.
+* [PyStack](https://bloomberg.github.io/pystack/) (Python). show stack, even including locals.
 * [austin](https://github.com/P403n1x87/austin) (Python). CPU+memory. Fast.
 * [memray](https://github.com/bloomberg/memray) (Python). Memory.
   [HN](https://news.ycombinator.com/item?id=31102089).
