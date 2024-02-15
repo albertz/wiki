@@ -72,6 +72,7 @@ or external (but it should know about the multiple copies).
   ([HN](https://news.ycombinator.com/item?id=13700492)).
   Similar to Perkeep, but different focus.
   Also very relevant.
+* [SeaweedFS](https://github.com/seaweedfs/seaweedfs) stores blobs, objects, files.
 * [Syncthing](https://syncthing.net/) ([HN](https://news.ycombinator.com/item?id=27929194))
 * [FreeFileSync](https://freefilesync.org/)
 * [bup](https://bup.github.io/)
