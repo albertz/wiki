@@ -14,3 +14,9 @@ Related:
 * [This wiki: debugging](debugging.md)
 * [This wiki: profiling](profiling.md)
 * [Stas Bekman - The Art of Debugging](https://github.com/stas00/the-art-of-debugging/)
+
+
+Tuning
+
+* [How to change your optimizer hparams when changing batch-size](https://www.cs.princeton.edu/~smalladi/blog/2024/01/22/SDEs-ScalingRules/)
+* [How to scale your EMA](https://arxiv.org/abs/2307.13813)
