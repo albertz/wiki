@@ -6,6 +6,8 @@ Refs:
 * [RETURNN Debugging doc](https://returnn.readthedocs.io/en/latest/advanced/debugging.html)
 * [RETURNN wiki: debugging](https://github.com/rwth-i6/returnn/wiki/Debugging)
 * [Google Brain - Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
+* [How to change your optimizer hparams when changing batch-size](https://www.cs.princeton.edu/~smalladi/blog/2024/01/22/SDEs-ScalingRules/)
+* [How to scale your EMA](https://arxiv.org/abs/2307.13813)
 
 
 Related:
@@ -15,8 +17,3 @@ Related:
 * [This wiki: profiling](profiling.md)
 * [Stas Bekman - The Art of Debugging](https://github.com/stas00/the-art-of-debugging/)
 
-
-Tuning
-
-* [How to change your optimizer hparams when changing batch-size](https://www.cs.princeton.edu/~smalladi/blog/2024/01/22/SDEs-ScalingRules/)
-* [How to scale your EMA](https://arxiv.org/abs/2307.13813)
