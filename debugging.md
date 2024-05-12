@@ -6,6 +6,8 @@ This document is also related to [profiling](profiling.md).
 # Python
 
 * My own project: [better_exchook](https://github.com/albertz/py_better_exchook)
+* My own proof-of-concept project: [pydbattach - attach to running Python process](https://github.com/albertz/pydbattach).
+  More references on this topic in the README.
 * [LLDB CPython script](https://github.com/malor/cpython-lldb)
 * [LLDB Python scripting](https://lldb.llvm.org/use/python.html), [LLDB Python reference](https://lldb.llvm.org/use/python-reference.html)
 * [Background ZMQ IPython/Jupyter kernel](https://github.com/albertz/background-zmq-ipython)
