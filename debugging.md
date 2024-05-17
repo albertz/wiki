@@ -13,6 +13,7 @@ This document is also related to [profiling](profiling.md).
 * [Background ZMQ IPython/Jupyter kernel](https://github.com/albertz/background-zmq-ipython)
 * `faulthandler` module (for crashes, like segfault)
 * `py-spy dump --pid 12345` (via [py-spy](https://github.com/benfred/py-spy))
+* [PyStack](https://bloomberg.github.io/pystack/) (Python). show stack, even including locals.
 * See also C below. Esp. if your Python project involves heavy C libs. E.g. load `libSegFault.so` ([example](https://github.com/rwth-i6/returnn/blob/5b8e34ec1fd725d0e20b5b422d213dbf17d9e069/Debug.py#L226))
 * It can be useful to install a signal handler on SIGUSR1 and then print all stacktraces from all threads (via `better_exchook`).
 * See also [profiling](profiling.md).
