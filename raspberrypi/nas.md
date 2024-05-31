@@ -53,3 +53,5 @@ However, attaching some SATA HDD (to SATA1) does not seem to work.
 [   82.383335] ahci 0000:01:00.0: AHCI controller unavailable!
 ```
 Maybe because the PCI-e-to-NVME-M.2 bridge does not have enough power?
+
+Maybe I also should use the PCIe lane at Gen 3.0 speeds (setting `dtparam=pciex1_gen=3` in `/boot/firmware/config.txt`)?
