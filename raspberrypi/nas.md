@@ -55,3 +55,11 @@ However, attaching some SATA HDD (to SATA1) does not seem to work.
 Maybe because the PCI-e-to-NVME-M.2 bridge does not have enough power?
 
 Maybe I also should use the PCIe lane at Gen 3.0 speeds (setting `dtparam=pciex1_gen=3` in `/boot/firmware/config.txt`)?
+
+Some relevant links (partly posts from myself):
+* [geerlingguy / raspberry-pi-pcie-devices: Test PCIe switches and adapters #14 (my comment)](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/14#issuecomment-2141448525)
+* [geerlingguy / raspberry-pi-pcie-devices: ASMedia Technology Inc. Device 1064 M.2 NVME to Mini SAS Expansion Card Support 4 Ports SATA3.0 6Gbps HDD SSD SATA Controller SFF8087 #600 (my comment)](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/600#issuecomment-2143579129)
+* [Raspberry Pi forums: Raspberry Pi 5 PCIe Bus Error - ASM1166](https://forums.raspberrypi.com/viewtopic.php?t=363682)
+
+It seems this ASM1166 chip is problematic with Raspberry Pi?
+I bought another JMB575-based SATA controller now. Let's see...
