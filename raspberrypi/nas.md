@@ -62,4 +62,45 @@ Some relevant links (partly posts from myself):
 * [Raspberry Pi forums: Raspberry Pi 5 PCIe Bus Error - ASM1166](https://forums.raspberrypi.com/viewtopic.php?t=363682)
 
 It seems this ASM1166 chip is problematic with Raspberry Pi?
-I bought another JMB575-based SATA controller now. Let's see...
+**Edit** It seems it works now, with the help from Ezaul [here](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/600#issuecomment-2143909849).
+Specifically, to make it work (without really understanding what this does):
+```shell
+# backup current dtb
+sudo cp /boot/firmware/bcm2712-rpi-5-b.dtb /boot/firmware/bcm2712-rpi-5-b.dtb.bak
+# decompile current dtb
+dtc -I dtb -O dts /boot/firmware/bcm2712-rpi-5-b.dtb -o ~/test.dts
+```
+Then edit the dts file (e.g. `nano ~/test.dts`), look for `pcie@110000` section, look for `msi-parent = ...`, and change that value to the same as the `phandle` value in the same section. Then save, and then:
+```shell
+# recompile dtb
+dtc -I dts -O dtb ~/test.dts -o ~/test.dtb
+# move back to firmware dir
+sudo mv ~/test.dtb /boot/firmware/bcm2712-rpi-5-b.dtb
+# reboot
+sudo reboot
+```
+And now it seems to work! `dmesg`:
+```
+[    8.101051] ata1: link is slow to respond, please be patient (ready=0)
+[    8.367081] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    8.374843] ata1.00: ATA-11: ST4000NE001-2MA101, EN01, max UDMA/133
+[    8.394013] ata1.00: 7814037168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    8.401503] ata1.00: Features: NCQ-sndrcv
+[    8.420145] ata1.00: configured for UDMA/133
+[    8.424652] scsi 0:0:0:0: Direct-Access     ATA      ST4000NE001-2MA1 EN01 PQ: 0 ANSI: 5
+[    8.433197] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    8.433244] sd 0:0:0:0: [sda] 7814037168 512-byte logical blocks: (4.00 TB/3.64 TiB)
+[    8.446314] sd 0:0:0:0: [sda] 4096-byte physical blocks
+[    8.451576] sd 0:0:0:0: [sda] Write Protect is off
+[    8.456394] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    8.456423] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    8.465537] sd 0:0:0:0: [sda] Preferred minimum I/O size 4096 bytes
+[    8.745187] ata2: SATA link down (SStatus 0 SControl 300)
+[    8.914641] sd 0:0:0:0: [sda] Attached SCSI disk
+[    9.057245] ata3: SATA link down (SStatus 0 SControl 300)
+[    9.369195] ata4: SATA link down (SStatus 0 SControl 300)
+[    9.681197] ata5: SATA link down (SStatus 0 SControl 300)
+[    9.993191] ata6: SATA link down (SStatus 0 SControl 300)
+```
+
+I also bought another JMB575-based SATA controller now to test whether that works more out-of-the-box. Let's see...
