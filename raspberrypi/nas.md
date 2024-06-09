@@ -76,7 +76,8 @@ Then edit the dts file (e.g. `nano ~/test.dts`), look for `pcie@110000` section,
 dtc -I dts -O dtb ~/test.dts -o ~/test.dtb
 # move back to firmware dir
 sudo mv ~/test.dtb /boot/firmware/bcm2712-rpi-5-b.dtb
-# (Ignore the potential error/warning: mv: failed to preserve ownership for '/boot/firmware/bcm2712-rpi-5-b.dtb': Operation not permitted)
+# (Ignore the potential error/warning:
+#  mv: failed to preserve ownership for '/boot/firmware/bcm2712-rpi-5-b.dtb': Operation not permitted)
 # reboot
 sudo reboot
 ```
