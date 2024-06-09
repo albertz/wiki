@@ -76,6 +76,7 @@ Then edit the dts file (e.g. `nano ~/test.dts`), look for `pcie@110000` section,
 dtc -I dts -O dtb ~/test.dts -o ~/test.dtb
 # move back to firmware dir
 sudo mv ~/test.dtb /boot/firmware/bcm2712-rpi-5-b.dtb
+# (Ignore the potential error/warning: mv: failed to preserve ownership for '/boot/firmware/bcm2712-rpi-5-b.dtb': Operation not permitted)
 # reboot
 sudo reboot
 ```
@@ -102,5 +103,6 @@ And now it seems to work! `dmesg`:
 [    9.681197] ata5: SATA link down (SStatus 0 SControl 300)
 [    9.993191] ata6: SATA link down (SStatus 0 SControl 300)
 ```
+You might need to redo this procedure after updating the kernel.
 
 I also bought another JMB575-based SATA controller now to test whether that works more out-of-the-box. Let's see...
