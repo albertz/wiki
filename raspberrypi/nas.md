@@ -60,6 +60,7 @@ Some relevant links (partly posts from myself):
 * [geerlingguy / raspberry-pi-pcie-devices: Test PCIe switches and adapters #14 (my comment)](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/14#issuecomment-2141448525)
 * [geerlingguy / raspberry-pi-pcie-devices: ASMedia Technology Inc. Device 1064 M.2 NVME to Mini SAS Expansion Card Support 4 Ports SATA3.0 6Gbps HDD SSD SATA Controller SFF8087 #600 (my comment)](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/600#issuecomment-2143579129)
 * [Raspberry Pi forums: Raspberry Pi 5 PCIe Bus Error - ASM1166](https://forums.raspberrypi.com/viewtopic.php?t=363682)
+* [Raspberry Pi Linux kernel GitHub repo: ASM1166 SATA controller fails #6214](https://github.com/raspberrypi/linux/issues/6214)
 
 It seems this ASM1166 chip is problematic with Raspberry Pi?
 **Edit** It seems it works now, with the help from Ezaul [here](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/600#issuecomment-2143909849).
