@@ -108,3 +108,6 @@ And now it seems to work! `dmesg`:
 You might need to redo this procedure after updating the kernel.
 
 I also bought another JMB575-based SATA controller now to test whether that works more out-of-the-box. Let's see...
+So far no luck with that. It does not even show up in `lspci`, and no message at all in `dmesg` about it.
+The comment [here](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/85#issuecomment-2171822870)
+describes exactly my behavior.
