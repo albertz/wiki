@@ -64,6 +64,8 @@ Existing software:
 * [Tracy](https://github.com/wolfpld/tracy) (C)
 * [optick](https://github.com/bombomby/optick) (C)
 * [0x.tools](https://0x.tools/) using eBPF ([GitHub](https://github.com/tanelpoder/0xtools), [HN](https://news.ycombinator.com/item?id=40869877))
+* [otel-profiling-agent](https://github.com/elastic/otel-profiling-agent) using eBPF, support for many languages including Python
+* [Grafana Beyla](https://grafana.com/oss/beyla-ebpf/) eBPF-based, supports Python
 
 Some useful StackOverflow questions:
 
