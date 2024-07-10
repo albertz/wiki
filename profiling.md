@@ -10,6 +10,7 @@ Most importantly Linux.
 Probably this is platform dependend.
 MacOSX has DTrace.
 (Windows has [UIforETW](https://github.com/google/UIforETW/). See the [randomascii blog](https://randomascii.wordpress.com/).)
+Linux also has eBPF now.
 
 Common situations:
 
@@ -62,6 +63,7 @@ Existing software:
 * Tracing UI: [magic-trace](https://magic-trace.org/) ([GitHub](https://github.com/janestreet/magic-trace), [blog post](https://blog.janestreet.com/magic-trace/))
 * [Tracy](https://github.com/wolfpld/tracy) (C)
 * [optick](https://github.com/bombomby/optick) (C)
+* [0x.tools](https://0x.tools/) using eBPF ([GitHub](https://github.com/tanelpoder/0xtools), [HN](https://news.ycombinator.com/item?id=40869877))
 
 Some useful StackOverflow questions:
 
