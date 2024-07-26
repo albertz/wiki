@@ -57,6 +57,7 @@ Existing software:
 * [memray](https://github.com/bloomberg/memray) (Python). Memory.
   [HN](https://news.ycombinator.com/item?id=31102089).
 * [Scalene](https://github.com/plasma-umass/scalene) (Python). CPU+GPU+memory. Fast.
+* [Pyinstrument](https://github.com/joerick/pyinstrument) (Python). CPU. Semi-fast (30% overhead).
 * Tracing UI: [Perfetto](https://ui.perfetto.dev/) with [Chromium Event JSON Format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview), [Fuchsia Trace Format](https://fuchsia.dev/fuchsia-src/reference/tracing/trace-format), [Perfetto Protobuf](https://github.com/google/perfetto/blob/master/protos/perfetto/trace/perfetto_trace.proto) ([details](https://thume.ca/2023/12/02/tracing-methods/))
 * Tracing/profiling UI: [Speedscope](https://www.speedscope.app/) ([GitHub](https://github.com/jlfwong/speedscope))
 * GDB scripting: [GEF](https://github.com/hugsy/gef)
