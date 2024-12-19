@@ -16,6 +16,8 @@ This document is also related to [profiling](profiling.md).
 * [PyStack](https://bloomberg.github.io/pystack/) (Python). show stack, even including locals.
 * See also C below. Esp. if your Python project involves heavy C libs. E.g. load `libSegFault.so` ([example](https://github.com/rwth-i6/returnn/blob/5b8e34ec1fd725d0e20b5b422d213dbf17d9e069/Debug.py#L226))
 * It can be useful to install a signal handler on SIGUSR1 and then print all stacktraces from all threads (via `better_exchook`).
+* PyCharm debugger, JetBrains Gateway for remote PyCharm, remote PyCharm Python debug server (`pydevd_pycharm`)
+  * https://github.com/rwth-i6/returnn/wiki/Remote-Development-and-Debugging
 
 # C/C++ and other native
 
