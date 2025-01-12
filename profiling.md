@@ -77,3 +77,12 @@ Some useful StackOverflow questions:
 Other refs:
 
 * [Tristan Hume - All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more](https://thume.ca/2023/12/02/tracing-methods/)
+
+# Memory profiling for Python
+
+* [Python `gc` module](https://docs.python.org/3/library/gc.html), e.g. iterate through `gc.get_objects()`
+* [Python `tracemalloc` module](https://docs.python.org/3/library/tracemalloc.html)
+* [guppy 3](https://zhuyifei1999.github.io/guppy3/)
+* [objgraph](https://mg.pov.lt/objgraph/)
+* [Pympler muppy](https://pythonhosted.org/Pympler/muppy.html)
+* [Memray](https://github.com/bloomberg/memray)
