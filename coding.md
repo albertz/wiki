@@ -4,6 +4,7 @@
 * [Rich Hickey, Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
 * [Sandi Metz, The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 * [ML engineering](ml-engineering.md)
+* [Writing Toy Software Is A Joy](https://blog.jsbarretto.com/post/software-is-joy)
 
 
 # Playground
