@@ -122,7 +122,7 @@ Problems you are facing are for example about [big/little endianness](https://en
 
 # Protocols and file formats
 
-In many cases, knowledge of protocols and file formats can be usefull,
+In many cases, knowledge of protocols and file formats can be useful,
 even if a library is doing all the handling for you.
 In some cases, you even need to implement some basic support for yourself.
 
@@ -178,8 +178,9 @@ For simple games, this is usually often kept very simple.
 
 # Artificial intelligence
 
-Artificial intelligence
-The most obvious application of artificial intelligence in games is the computer enemy. AI in games and AI in general is really a topic for itself. Maybe the biggest and most important of all things which you learn by game development but that is up to your own focus.
+The most obvious application of artificial intelligence in games is the computer enemy.
+AI in games and AI in general is really a topic for itself.
+Maybe the biggest and most important of all things which you learn by game development but that is up to your own focus.
 
 Also, the subtopics of AI you can apply in a game depends a bit on the type of game,
 but in general, a lot of different AI topics can be applied in games.
@@ -263,10 +264,10 @@ It will keep track over all changes in all files and will make it possible that 
 With the history of the changes, you will be able to see what person has done what changes and you can hunt down bugs to specific changes.
 You can also see what person has written which parts of a source file and thus ask him about some details.
 
-Such a system is even very helpfull and nice to have if you work alone on a project.
+Such a system is even very helpful and nice to have if you work alone on a project.
 And it is absolutely mandatory once you work in a team.
 
-In OpenLieroX, we use [Git](https://en.wikipedia.org/wiki/Git) - a very powerfull [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control).
+In OpenLieroX, we use [Git](https://en.wikipedia.org/wiki/Git) - a very powerful [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control).
 Learning Git is really a whole topic for itself.
 You might want to use a platform like [GitHub](https://github.com/) to host your code and to make it available for others.
 
@@ -347,7 +348,7 @@ or contribute to an existing open source game project.
 
 ## Reading code of existing games
 
-To be able to do something usefull with the code, it is very helpfull / mandatory that you have a rough overview over the code.
+To be able to do something useful with the code, it is very helpful / mandatory that you have a rough overview over the code.
 Many projects have an overview document.
 Also see [here](coding.md#reading-code-of-existing-projects).
 
@@ -365,7 +366,7 @@ This is somewhat silly but you have to get through that.
 (The compiler will convert the source code into an executable binary; on Windows, that is an EXE-file.)
 
 The [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) is the editor where you edit the code.
-In theory, you could also use a simple text editor; however, an IDE will be mure more helpfull and easy to use.
+In theory, you could also use a simple text editor; however, an IDE will be mure more helpful and easy to use.
 
 In some cases (like MSVC), the IDE is bundled together with the compiler.
 In some other cases (on Linux),
