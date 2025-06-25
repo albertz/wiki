@@ -8,6 +8,7 @@
 * [Debugging](debugging.md)
 * [Profiling](profiling.md)
 * [Coding for kids](coding-for-kids.md)
+* [Why game development is a great learning playground](coding-learning-games-why.md)
 
 
 # Playground
