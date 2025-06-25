@@ -5,6 +5,9 @@
 * [Sandi Metz, The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 * [ML engineering](ml-engineering.md)
 * [Writing Toy Software Is A Joy](https://blog.jsbarretto.com/post/software-is-joy) ([HN](https://news.ycombinator.com/item?id=44367084))
+* [Debugging](debugging.md)
+* [Profiling](profiling.md)
+* [Coding for kids](coding-for-kids.md)
 
 
 # Playground
