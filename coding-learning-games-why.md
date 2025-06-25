@@ -1,8 +1,7 @@
 # Why game development is a great learning playground
 
-(This is an updated version of [an article from the OpenLieroX wiki](http://www.openlierox.net/wiki/index.php/Why_game_development_is_a_great_learning_playground)
-([Wayback Machine copy](https://web.archive.org/web/20200221020401/http://www.openlierox.net:80/wiki/index.php/Why_game_development_is_a_great_learning_playground)),
-which was written specifically with [OpenLieroX](https://www.openlierox.net/) ([GitHub](http://github.com/albertz/openlierox)) as an example.)
+(This is an updated, extended and generalized version of [an article from the OpenLieroX wiki](http://www.openlierox.net/wiki/index.php/Why_game_development_is_a_great_learning_playground)
+([Wayback Machine copy](https://web.archive.org/web/20200221020401/http://www.openlierox.net:80/wiki/index.php/Why_game_development_is_a_great_learning_playground)).)
 
 Game development is a great way to learn coding and computer science in general.
 You can learn a lot by game development.
