@@ -24,6 +24,8 @@ while most other applications are mostly very limited in the amount of theories 
 * [Kshitij Dhar: Why Video Game Programming Is Awesome (And How to Get Started with Creating Your First Game)](https://medium.com/@kshitijdhar12/why-video-game-programming-is-awesome-and-how-to-become-a-game-programmer-12a1cf8ebe79)
 * [What is a music player?](https://github.com/albertz/music-player/blob/master/WhatIsAMusicPlayer.md).
   In a similar manner, this article shows that a music player also covers various different aspects.
+* [Joshua Barretto: Writing Toy Software Is A Joy](https://blog.jsbarretto.com/post/software-is-joy).
+  List of toy programs rated by difficulty and time required.
 
 
 # Programming languages
