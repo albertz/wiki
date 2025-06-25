@@ -283,6 +283,23 @@ e.g. [unit tests](https://en.wikipedia.org/wiki/Unit_testing) or [integration te
 E.g. GitHub supports this with [GitHub Actions](https://docs.github.com/en/actions).
 
 
+# Debugging
+
+You will stumble upon bugs and problems in your code.
+You will need to learn how to find and fix them.
+This is called [debugging](https://en.wikipedia.org/wiki/Debugging).
+Fortunately, there are many tools available to help you with debugging, such as [debuggers](https://en.wikipedia.org/wiki/Debugger).
+See [here for a list](debugging.md).
+
+
+# Profiling
+
+Your code might be too slow (or hang) or use too much memory.
+[Profiling](https://en.wikipedia.org/wiki/Profiling_(computer_programming)) is a way to find out where your code is slow or uses too much memory.
+There are many tools available to help you with profiling, usually called profilers.
+See [here for a list](profiling.md).
+
+
 # Media design
 
 A game usually needs graphics, sounds, levels or other media.
@@ -332,11 +349,13 @@ or contribute to an existing open source game project.
 
 To be able to do something usefull with the code, it is very helpfull / mandatory that you have a rough overview over the code.
 Many projects have an overview document.
+Also see [here](coding.md#reading-code-of-existing-projects).
 
 ## Contributing to an existing project
 
 Many projects have a document like `CONTRIBUTING.md` describing how to contribute.
 It usually also makes sense to speak to someone from the project first.
+Also see [here](coding.md#contributing-to-existing-projects).
 
 ## Setting up a development environment
 
@@ -361,3 +380,4 @@ Projects usually provide some documentation how to set up the development enviro
 When you start a new project, it makes sense to see some simple examples how to set up the development environment.
 Usually you would create a new version control repository, which is then an empty directory,
 and you would put your stuff into it.
+Also see [here](coding.md#coding-environment).
