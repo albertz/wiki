@@ -381,3 +381,6 @@ When you start a new project, it makes sense to see some simple examples how to 
 Usually you would create a new version control repository, which is then an empty directory,
 and you would put your stuff into it.
 Also see [here](coding.md#coding-environment).
+
+It might also make sense to setup some generic playground environment to test minimal ideas, code snippets, etc.
+See [here](coding.md#playground).
