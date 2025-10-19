@@ -191,7 +191,8 @@ i.e. add only the source text files to it, or other small files, not the build p
 What IDE to use?
 Many people will have their own favorites here. This is a whole topic on its own.
 I'm not going too much into that here.
-I just state that I would recommend PyCharm for Python development,
+I just state that I would recommend PyCharm for Python development
+(see also [Python IDE](coding-python-ide.md)),
 and QtCreator for C++.
 VSCode is also nice for smaller scripts or text files.
 
