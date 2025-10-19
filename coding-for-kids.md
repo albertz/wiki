@@ -13,3 +13,4 @@ See also [coding in general](coding.md).
 * [My PyOverheadGame project](https://github.com/albertz/PyOverheadGame),
   as an educational Python game.
 * [albertz / Coding-Game-Intro](https://github.com/albertz/Coding-Game-Intro)
+* [Python IDE](coding-python-ide.md)
