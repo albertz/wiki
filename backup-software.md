@@ -100,6 +100,8 @@ or external (but it should know about the multiple copies).
 * [Resilio](https://www.resilio.com/individuals-sync/). commercial
 * [Dropbox](https://www.dropbox.com/), [Google Drive](https://www.google.com/drive/), etc. commercial
 * [imap-backup](https://github.com/joeyates/imap-backup)
+* [aegis](https://git.sr.ht/~alexdavid/aegis). archive photos, important documents, music, and other data
+* [boar](https://github.com/mekberg/boar)
 
 A lot of the software can be divided into:
 
