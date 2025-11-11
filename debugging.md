@@ -1,7 +1,10 @@
 
 Stacktraces with maybe some additional information are pretty useful.
 
-This document is also related to [profiling](profiling.md).
+# Related
+
+* [Profiling](profiling.md)
+* [stas00/the-art-of-debugging](https://github.com/stas00/the-art-of-debugging)
 
 # Python
 
